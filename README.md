@@ -1,7 +1,7 @@
-# nextjs-shihao-website
-This is my new website based on NextJS
+# nextjs-alan-website
+Copy of Shihao Cao's website, to mess around with
 
-For more details on how I built this website, [visit my website itself](https://www.shihaocao.com/notes/how-i-made-this-website/).
+For more details on how he built this website, [visit his website itself](https://www.shihaocao.com/notes/how-i-made-this-website/).
 
 ### Maintenence
 
