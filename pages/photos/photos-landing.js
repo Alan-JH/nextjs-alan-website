@@ -11,6 +11,19 @@ export default function FirstPost() {
         <title>Alan's Photography</title>
       </Head>
       <h1>Photography</h1>
+
+      <h2><center> Galleries </center></h2>
+      <h3><center>
+      <a href="/photos/walkaround" className="button" target="_blank">Walk Around</a>
+      &nbsp;|&nbsp;
+      <a href="/photos/uav" className="button" target="_blank">UAV Club</a>
+      &nbsp;|&nbsp;
+      <a href="/photos/plane-spotting" className="button" target="_blank">Plane Spotting!</a>
+      &nbsp;|&nbsp;
+      <a href="/photos/astro" className="button" target="_blank">Astro Photography</a>
+      &nbsp;|&nbsp;
+      <a href="/photos/film-rolls" className="button" target="_blank">Film Rolls</a>
+      </center></h3>
       
       <h2>Gear</h2>
       <img
@@ -57,19 +70,6 @@ export default function FirstPost() {
       loading="lazy"
       />
       If I'm not careful, I might snap my E mount right off
-
-      <h2><center> Galleries </center></h2>
-      <h3><center>
-      <a href="/photos/walkaround" className="button" target="_blank">Walk Around</a>
-      &nbsp;|&nbsp;
-      <a href="/photos/uav" className="button" target="_blank">UAV Club</a>
-      &nbsp;|&nbsp;
-      <a href="/photos/plane-spotting" className="button" target="_blank">Plane Spotting!</a>
-      &nbsp;|&nbsp;
-      <a href="/photos/astro" className="button" target="_blank">Astro Photography</a>
-      &nbsp;|&nbsp;
-      <a href="/photos/film-rolls" className="button" target="_blank">Film Rolls</a>
-      </center></h3>
 
     </Layout>
 
