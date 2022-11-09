@@ -34,6 +34,8 @@ export default function FirstPost() {
 
       {gallery(images)}
 
+      Last updated 8 November 2022
+
     </Layout>
 
   )
