@@ -45,29 +45,24 @@ export default function Home() {
 
         <h3>Currently</h3>
         <p>
-        🏫 &nbsp; Bachelors in Computer Science at Cornell University
+        Senior at TJHSST
         <br></br>
-        🔄 &nbsp; Venture Partner at Contrary Capital
+        Mentor for TJ Space Program
         <br></br>
-        🚗 &nbsp; leading the self-driving car team at Cornell Data Science
+        Technical Lead for TJ UAV
         <br></br>
-        🛠️ &nbsp; building and helping others build
+        Thinking about project team management
 
         </p>
 
         <h3>Previously</h3>
         <p>
-        🛰️ &nbsp; led a team that deployed <Link href="https://news.cornell.edu/stories/2022/01/student-built-cubesats-rendezvous-space">two satellites into space</Link>
+        helped complete a <Link href="https://activities.tjhsst.edu/cubesat/">2U cubesat</Link>
         <br></br>
-        🔩 &nbsp; developed flight software and engines at SpaceX
-        {/* <br></br>
-        🔩 &nbsp; speed up high rate manufacturing at SpaceX */}
+        designed electronics for rovers at Starpath Robotics
         <br></br>
-        👨🏻‍🎓 &nbsp; aerospace/CS at TJ
+        designed and built flight sim peripherals
         <br></br>
-        ✈️ &nbsp; founded and led an <Link href="https://tj-uav.github.io/home">autonomous plane team</Link>
-        {/* <br></br>
-        ✈️ &nbsp; rc aircraft entheusiast  */}
         </p>
 
         <h3>For Fun Builds</h3>
@@ -117,45 +112,9 @@ export default function Home() {
         
         <h3>Happiness</h3>
 
-        📸 &nbsp; check out <Link href="/photos" >
-        <a>my photos</a>
-        </Link>!
-        <br></br>
-        🎿 &nbsp; I do my best to survive on blacks
-        <br></br>
-        🛹 &nbsp; I love <Link href="/notes/longboarding">downhill longboarding</Link>
-
-        <h3>Top 3 Books</h3>
-        {/* I like&nbsp;
-        <Link href="/books" >
-        <a>reading books</a>
+        I take <Link href="/photos/photos-landing" >
+        <a>photos</a>
         </Link>
-        &nbsp;to learn about new perspectives */}
-
-        {/* <h4  style={{marginBottom: neg_margin}}>Top 3</h4> */}
-        <ol>
-          <li>Foundation - Isaac Asimov</li>
-          <li>The Three Body Problem - Cixin Liu</li>
-          <li>All the Light We Cannot See - Anthony Doerr</li>
-        </ol>
-
-        {/* <div>
-
-        <h3>Blogs</h3>
-
-        I ramble every so often and write down&nbsp;
-        <Link href="/words/quotes" >
-        <a>my thoughts</a>
-        </Link>
-        .
-        </div> */}
-
-        {/* <h4 style={{marginBottom: neg_margin}}>Next Up</h4>
-        <ul>
-          <li>Last Lecture</li>
-          <li>All the Light We Cannot See</li>
-          <li>Zero to One</li>
-        </ul> */}
 
         <h3>Random Thoughts</h3>
         {front_page_post_list()}
@@ -166,66 +125,7 @@ export default function Home() {
           <a href="https://twitter.com/shihao_cao" className="button" target="_blank">Twitter</a>
           &nbsp;haha
         </p>
-
-        {/* <h2>For Fun</h2> */}
-
-        {/* <div className="grid-small-top">
-        <a href="/photos" className="card">
-          <h3>Photos &rarr;</h3>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-        </div>
-
-        <div className="grid-small-top">
-        <a href="/photos" className="card">
-          <h3>Planes &rarr;</h3>
-          <p>All the remote control aircraft I've built over the years...</p>
-        </a>
-        </div> */}
-
-        {/* <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p> */}
-
-        {/* <Link href="/old_index" >
-        <a>Old JS</a>
-        </Link>
-        <br></br>
-        <Link href="/posts/first-post" >
-        <a>First Post</a>
-        </Link> */}
       </section>
-      
-      {/* <div className="grid">
-          <a href="/photos" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div> */}
 
     </Layout>
     
