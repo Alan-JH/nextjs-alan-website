@@ -3,7 +3,13 @@ import Layout from '../../components/layout'
 import styles from '../../components/layout.module.css'
 import gallery from '../../components/gallery-elements'
 
-
+/*
+src: gallery view photo
+original: lightbox photo
+width: integer
+height: integer
+caption: string caption
+*/
 export const images = [
   {
     src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
