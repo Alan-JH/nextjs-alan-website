@@ -4,7 +4,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Shihao Cao'
+const name = 'Alan Hsu'
 const big_img_size = 230
 const neg_margin_on_links = -2
 const neg_top_margin_on_top_header = -25
@@ -37,7 +37,7 @@ export function header_links() {
 
   &nbsp;&nbsp;|&nbsp;&nbsp;
 
-  <Link href="/photos" >
+  <Link href="/photos/photos-landing" >
   <a>Photos</a>
   </Link>
 
@@ -84,15 +84,13 @@ export default function Layout({ children, home , layout_type}) {
             <h1 className={utilStyles.heading2Xl_no_pad}>{name}</h1>
 
             <h3 style={{marginBottom: neg_margin_on_links}}> 
-            <a href="assets/Shihao_Cao_Resume.pdf" className="button" target="_blank">Resume</a>
+            <a href="/assets/Alan_Hsu_Resume.pdf" className="button" target="_blank">Resume</a>
             &nbsp;|&nbsp;
-            <a href="https://github.com/shihaocao" className="button" target="_blank">Github</a>
+            <a href="https://github.com/Alan-JH" className="button" target="_blank">Github</a>
             &nbsp;|&nbsp;
-            <a href="https://twitter.com/shihao_cao" className="button" target="_blank">Twitter</a>
+            <a href="https://www.youtube.com/channel/UC3O73QlR3EvTSLFo3HZKcKQ" className="button" target="_blank">Youtube</a>
             &nbsp;|&nbsp;
-            <a href="https://www.linkedin.com/in/shihaocao/" className="button" target="_blank">LinkedIn</a>
-            {/* &nbsp;|&nbsp;
-            <a href="https://www.youtube.com/user/Shasty88" target="_blank">YouTube</a> */}
+            <a href="www.linkedin.com/in/alan--hsu" className="button" target="_blank">LinkedIn</a>
             </h3>
           </>
         ) : (
