@@ -3,7 +3,19 @@ import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import { useState } from "react";
 
-export default function gallery(images){
+export function galleriesHeader(){
+    return <h3><center>
+    <a href="/photos/uav" className="button" target="_blank">UAV Club</a>
+    &nbsp;|&nbsp;
+    <a href="/photos/plane-spotting" className="button" target="_blank">Plane Spotting!</a>
+    &nbsp;|&nbsp;
+    <a href="/photos/astro" className="button" target="_blank">Astro Photography</a>
+    &nbsp;|&nbsp;
+    <a href="/photos/film-rolls" className="button" target="_blank">Film Rolls</a>
+    </center></h3>
+}
+
+export function gallery(images){
     const [index, setIndex] = useState(-1);
 
     const currentImage = images[index];
@@ -41,4 +53,21 @@ export default function gallery(images){
         )}
         </div>
     );
+}
+
+/*
+src: gallery view photo
+original: lightbox photo
+width: integer
+height: integer
+caption: string caption
+*/
+export function image(dir, filename, w, h, descr){
+    return {
+        src: "/photography/" + dir + "/" + filename + "_compressed.JPG",
+        original: "/photography/" + dir + "/" + filename + ".JPG",
+        width: w,
+        height: h,
+        caption: descr,
+      }
 }

@@ -1,7 +1,9 @@
 # nextjs-alan-website
 Copy of Shihao Cao's website, to mess around with
 
-For more details on how he built this website, [visit his website itself](https://www.shihaocao.com/notes/how-i-made-this-website/).
+For more details on how he built this website, [visit his website](https://www.shihaocao.com/notes/how-i-made-this-website/).
+
+react-image-lightbox required for gallery functionality. Run npm install react-image-lightbox
 
 ### Maintenence
 

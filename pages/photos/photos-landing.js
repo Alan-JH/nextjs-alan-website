@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout from '../../components/layout'
 import styles from '../../components/layout.module.css'
 import "react-image-lightbox/style.css";
+import {galleriesHeader} from '../../components/gallery-elements'
 
 export default function FirstPost() {
 
@@ -13,15 +14,7 @@ export default function FirstPost() {
       <h1>Photography</h1>
 
       <h2><center> Galleries </center></h2>
-      <h3><center>
-      <a href="/photos/uav" className="button" target="_blank">UAV Club</a>
-      &nbsp;|&nbsp;
-      <a href="/photos/plane-spotting" className="button" target="_blank">Plane Spotting!</a>
-      &nbsp;|&nbsp;
-      <a href="/photos/astro" className="button" target="_blank">Astro Photography</a>
-      &nbsp;|&nbsp;
-      <a href="/photos/film-rolls" className="button" target="_blank">Film Rolls</a>
-      </center></h3>
+      {galleriesHeader()}
       
       <h2>Gear</h2>
       <img
