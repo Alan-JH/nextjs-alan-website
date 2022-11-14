@@ -14,8 +14,6 @@ export default function FirstPost() {
 
       <h2><center> Galleries </center></h2>
       <h3><center>
-      <a href="/photos/walkaround" className="button" target="_blank">Walk Around</a>
-      &nbsp;|&nbsp;
       <a href="/photos/uav" className="button" target="_blank">UAV Club</a>
       &nbsp;|&nbsp;
       <a href="/photos/plane-spotting" className="button" target="_blank">Plane Spotting!</a>
