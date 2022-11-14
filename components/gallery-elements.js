@@ -5,13 +5,13 @@ import { useState } from "react";
 
 export function galleriesHeader(){
     return <h3><center>
-    <a href="/photos/uav" className="button" target="_blank">UAV Club</a>
+    <a href="/photos/uav" className="button">UAV Club</a>
     &nbsp;|&nbsp;
-    <a href="/photos/plane-spotting" className="button" target="_blank">Plane Spotting!</a>
+    <a href="/photos/plane-spotting" className="button">Plane Spotting!</a>
     &nbsp;|&nbsp;
-    <a href="/photos/astro" className="button" target="_blank">Astro Photography</a>
+    <a href="/photos/astro" className="button">Astro Photography</a>
     &nbsp;|&nbsp;
-    <a href="/photos/film-rolls" className="button" target="_blank">Film Rolls</a>
+    <a href="/photos/film-rolls" className="button">Film Rolls</a>
     </center></h3>
 }
 
