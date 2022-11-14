@@ -21,17 +21,7 @@ export function front_page_post_list(){
   
   export function full_post_list(){
     return <ul>
-      {notes_list_element("Packing for SpaceX", "notes")}
-      {notes_list_element("Marino Pasta Recipe", "notes")}
-      {notes_list_element("Rapid Prototyping Quick Reference", "notes")}
-      {/* {notes_list_element("Economics Quick Reference", "notes")} */}
-      {notes_list_element("Lovely Pina Colada", "notes")}
-      {notes_list_element("Seeking Epilogue", "notes")}
-      {notes_list_element("Quotes", "notes")}
-
-      {notes_list_element_full("How I Made This Website", "how-i-made-this-website", "notes")}
-      {notes_list_element_full("Longboarding", "longboarding", "notes")}
-
+      {notes_list_element_full("How I (Mostly) Made This Website", "how-i-made-this-website", "notes")}
     </ul>
   }
   
