@@ -70,11 +70,10 @@ export default function Home() {
         I take <Link href="/photos/photos-landing" >
         <a>mediocre photos</a>
         </Link>
+        <br></br>
         Probably listening to flipturn, Blue Rain Boots, Friday Pilot's Club, or I DONT KNOW HOW BUT THEY FOUND ME
+        <br></br>
         Play the piano
-
-        <h3>Random Thoughts</h3>
-        {front_page_post_list()}
       </section>
 
     </Layout>

@@ -32,11 +32,7 @@ export function front_page_post_list(){
                 <title>Notes</title>
             </Head>
 
-            <h2></h2>
-
-            <p>
-            
-            </p>
+            <h2>A place for random thoughts and posts that don't fall elsewhere</h2>
 
             {full_post_list()}
 
