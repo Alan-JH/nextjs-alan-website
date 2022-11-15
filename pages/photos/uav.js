@@ -9,13 +9,12 @@ export const images = [
 
 export default function FirstPost() {
   return (
-    <Layout layout_type={styles.container}>
+    <Layout layout_type={styles.container} bgimage = "/images/headers/photographyheader.jpg" pagetitle = "UAV Club Photos" headertextcolor = "white">
       <Head>
         <title>Alan's UAV Club Photos</title>
       </Head>
       {galleriesHeader()}
 
-      <h1>UAV Club</h1>
       I take photos at UAV test flights, and some of them are good
 
       {gallery(images)}

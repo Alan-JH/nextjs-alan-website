@@ -9,13 +9,12 @@ export const images = [
 
 export default function FirstPost() {
   return (
-    <Layout layout_type={styles.container}>
+    <Layout layout_type={styles.container} bgimage = "/images/headers/photographyheader.jpg" pagetitle = "Plane Spotting!" headertextcolor = "white">
       <Head>
         <title>Alan's Plane Shots</title>
       </Head>
       {galleriesHeader()}
 
-      <h1>Plane Spotting</h1>
       I sometimes go to Gravelly Point to do plane spotting by Reagan National, and I have also gone near Dulles. I make it a point to bring my telephoto with me on trips in case of spotting opportunities. It's a whole 'nother type of photography, fast paced and fun!
 
       {gallery(images)}
