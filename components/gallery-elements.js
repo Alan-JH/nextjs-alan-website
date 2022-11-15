@@ -5,6 +5,8 @@ import { useState } from "react";
 
 export function galleriesHeader(){
     return <h3><center>
+    <a href="https://www.instagram.com/alanhsu.photos/" className="button" target="_blank">General (Instagram)</a>
+    &nbsp;|&nbsp;
     <a href="/photos/uav" className="button">UAV Club</a>
     &nbsp;|&nbsp;
     <a href="/photos/plane-spotting" className="button">Plane Spotting!</a>
