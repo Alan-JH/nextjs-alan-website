@@ -6,13 +6,12 @@ import styles from '../../components/layout.module.css'
 import { notes_list_element, notes_list_element_full } from '../../components/landing-elements'
 
 export function full_post_list(){
-  return /*<ul>
-    {notes_list_element_full("Remote Control F-86", "f86", "builds")}
-    {notes_list_element_full("Electric Falcon 9 VTOL drone", "lodestar", "builds")}
-    {notes_list_element_full("DIY Electric Longboard", "longboard", "builds")}
-    {notes_list_element_full("Tower of Cards", "tower-of-cards", "builds")}
-    {notes_list_element_full("All the Remote Control Aircraft I Built", "hangar", "builds")}
-  </ul>*/
+  return (
+    <div>
+      {notes_list_element_full("TrackIR Clip", "trackir", "projects")}
+      {notes_list_element_full("Scale Models", "scalemodels", "projects")}
+    </div>
+  )
 }
 
 export default function FirstPost() {
