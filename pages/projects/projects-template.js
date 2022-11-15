@@ -10,14 +10,14 @@ const title = "Title"
 
 export default function FirstPost() {
   return (
-    <Layout layout_type={styles.container}>
+    <Layout layout_type={styles.container} bgimage="/images/headers/buildsheader.jpg" pagetitle={title} headertextcolor="white">
       <Head>
         <title>{title}</title>
       </Head>
       <h1>{title}</h1>
       
-      <Link href="/builds/builds-landing">
-        <a>Back to builds</a>
+      <Link href="/projects/projects-landing">
+        <a>Back to projects</a>
       </Link>
       <br></br>
 

@@ -32,10 +32,10 @@ export function front_page_post_list(){
                 <title>Notes</title>
             </Head>
 
-            <h2>A place to share my notes</h2>
+            <h2></h2>
 
             <p>
-            I found myself wanting a place to put my random thoughts, notes, pdfs, and guides. So putting this up publicly to share.
+            
             </p>
 
             {full_post_list()}

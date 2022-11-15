@@ -64,67 +64,17 @@ export default function Home() {
         designed and built flight sim peripherals
         <br></br>
         </p>
-
-        <h3>For Fun Builds</h3>
-        🏗️ &nbsp; designed my own <Link href="/builds/f86" >
-        <a>remote control F-86. Plans here!</a>
-        </Link> 
-
-        <br></br>
-
-        🚀 &nbsp; developed an <Link href="/builds/lodestar" >
-        <a>electric Falcon 9 VTOL drone</a>
-        </Link>
-
-        <br></br>
-
-        🛹 &nbsp; built my own <Link href="/builds/longboard" >
-        <a>electric longboard</a>
-        </Link>
-
-        <br></br>
-
-        <div>
-        <img src="/images/tower-of-cards/poker-cards.png"
-          width  = {icon_size}
-          height = {icon_size}
-          align = "left"
-          style={{marginTop: 3}}
-          href="https://www.flaticon.com/free-icons/playing-cards"
-          comment="Playing cards icons created by Freepik - Flaticon"
-        />
-        &nbsp;&nbsp; built a 7' 7" <Link href="/builds/tower-of-cards" >
-        <a>tower of cards</a>
-        </Link>
-        </div>
-
-        <div>
-        <img src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/000000/external-hangar-airport-vitaliy-gorbachev-flat-vitaly-gorbachev.png"
-          width  = {icon_size}
-          height = {icon_size}
-          align = "left"
-          style={{marginTop: 3}}
-          href="https://icons8.com/icon/4AAzlm0vDwwY/hangar"
-        /> &nbsp;&nbsp; all my <Link href="/builds/hangar" >
-        <a>other remote control aircraft</a>
-        </Link> builds
-        </div>
         
-        <h3>Happiness</h3>
+        <h3>Fun</h3>
 
         I take <Link href="/photos/photos-landing" >
-        <a>photos</a>
+        <a>mediocre photos</a>
         </Link>
+        Probably listening to flipturn, Blue Rain Boots, Friday Pilot's Club, or I DONT KNOW HOW BUT THEY FOUND ME
+        Play the piano
 
         <h3>Random Thoughts</h3>
         {front_page_post_list()}
-
-        <h3>Say Hi!</h3>
-
-        <p>literally dm me on&nbsp;
-          <a href="https://twitter.com/shihao_cao" className="button" target="_blank">Twitter</a>
-          &nbsp;haha
-        </p>
       </section>
 
     </Layout>

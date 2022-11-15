@@ -10,11 +10,10 @@ const title = "Title"
 
 export default function FirstPost() {
   return (
-    <Layout layout_type={styles.container}>
+    <Layout layout_type={styles.container} bgimage="/images/headers/notesheader.jpg" pagetitle={title} headertextcolor="white">
       <Head>
         <title>{title}</title>
       </Head>
-      <h1>{title}</h1>
       
       <Link href="/notes/notes-landing">
         <a>Back to notes</a>

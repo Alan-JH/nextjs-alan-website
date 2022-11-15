@@ -31,8 +31,8 @@ export function header_links() {
 
   &nbsp;&nbsp;|&nbsp;&nbsp;
 
-  <Link href="/builds/builds-landing" >
-  <a>Builds</a>
+  <Link href="/projects/projects-landing" >
+  <a>Projects</a>
   </Link>
 
   &nbsp;&nbsp;|&nbsp;&nbsp;

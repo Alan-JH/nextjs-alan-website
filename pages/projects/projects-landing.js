@@ -17,16 +17,12 @@ export function full_post_list(){
 
 export default function FirstPost() {
   return (
-    <Layout layout_type={styles.container} bgimage="/images/headers/buildsheader.jpg" pagetitle="Builds" headertextcolor="white">
+    <Layout layout_type={styles.container} bgimage="/images/headers/buildsheader.jpg" pagetitle="Projects" headertextcolor="white">
       <Head>
-        <title>Builds</title>
+        <title>Projects</title>
       </Head>
       
-      <h2>A place for all my for fun builds</h2>
-
-      <p>
-      Here are a few of the few things I've built for fun over the last few years!
-      </p>
+      <h2>The projects that I have worked on</h2>
 
       {full_post_list()}
 
