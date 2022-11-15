@@ -10,7 +10,7 @@ import Post from '../interfaces/post'
 import { getAllPosts } from '../lib/api'
 
 const neg_margin = -12
-const icon_size = "26"
+const icon_size = "30"
 
 // type Props = {
 //   allPosts: Post[]
@@ -45,35 +45,65 @@ export default function Home() {
 
         <h3>Currently</h3>
         <p>
-        Senior at TJHSST
+        <img src="/images/icons/Tjlogo.png"
+          width  = {icon_size}
+          height = {icon_size}
+          align = "left"
+          style={{marginTop: 3}}
+          href="https://en.wikipedia.org/wiki/Thomas_Jefferson_High_School_for_Science_and_Technology"
+          comment="Image by Wikipedia"
+        />&nbsp;&nbsp;Senior at TJHSST
         <br></br>
-        Mentor for TJ Space Program
+        <img src="/images/icons/tjspacelogo.jpg"
+          width  = {icon_size}
+          height = {icon_size}
+          align = "left"
+          style={{marginTop: 3}}
+          href="https://activities.tjhsst.edu/cubesat/"
+        />&nbsp;&nbsp;Mentor for TJ Space Program
         <br></br>
-        Technical Lead for TJ UAV
+        <img src="/images/icons/tjuavlogo.png"
+          width  = {icon_size}
+          height = {icon_size - 10}
+          align = "left"
+          style={{marginTop: 3}}
+          href="https://github.com/tj-uav"
+        />&nbsp;&nbsp;Technical Lead for TJ UAV
         <br></br>
-        Thinking about project team management
+        🛠️&nbsp;&nbsp;&nbsp;Thinking about project team management
 
         </p>
 
         <h3>Previously</h3>
         <p>
-        helped complete a <Link href="https://activities.tjhsst.edu/cubesat/">2U cubesat</Link>
+        <img src="/images/icons/tjreverb.jpeg"
+          width  = {icon_size}
+          height = {icon_size}
+          align = "left"
+          style={{marginTop: 3}}
+          href="https://github.com/TJREVERB"
+        />&nbsp;&nbsp;helped launch a <Link href="https://activities.tjhsst.edu/cubesat/">2U cubesat</Link>
         <br></br>
-        designed electronics for rovers at Starpath Robotics
+        🌕&nbsp;&nbsp;&nbsp;designed electronics for rovers at Starpath Robotics
         <br></br>
-        designed and built flight sim peripherals
+        ✈️&nbsp;&nbsp;&nbsp;designed and built flight sim peripherals
         <br></br>
         </p>
         
         <h3>Fun</h3>
 
-        I take <Link href="/photos/photos-landing" >
+        <img src="/images/icons/mesuper.jpg"
+          width  = {icon_size}
+          height = {icon_size}
+          align = "left"
+          style={{marginTop: 3}}
+        />&nbsp;&nbsp;I take <Link href="/photos/photos-landing" >
         <a>mediocre photos</a>
         </Link>
         <br></br>
-        Probably listening to flipturn, Blue Rain Boots, Friday Pilot's Club, or I DONT KNOW HOW BUT THEY FOUND ME
+        🎵&nbsp;&nbsp;&nbsp;Probably listening to flipturn, Blue Rain Boots, Friday Pilot's Club, or I DONT KNOW HOW BUT THEY FOUND ME
         <br></br>
-        Play the piano
+        🎹&nbsp;&nbsp;&nbsp;Play the piano
       </section>
 
     </Layout>
