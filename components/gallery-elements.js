@@ -64,10 +64,10 @@ width: integer
 height: integer
 caption: string caption
 */
-export function image(dir, filename, w, h, descr, ext){
+export function image(dir, link, filename, w, h, descr){
     return {
-        src: "/photography/" + dir + "/" + filename + "_compressed" + ext,
-        original: "/photography/" + dir + "/" + filename + ext,
+        src: "/photography/" + dir + "/" + filename,
+        original: link,
         width: w,
         height: h,
         caption: descr,
