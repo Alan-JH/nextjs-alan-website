@@ -27,11 +27,10 @@ export function front_page_post_list(){
   
     export default function FirstPost() {
         return (
-            <Layout layout_type={styles.container}>
+            <Layout layout_type={styles.container} bgimage="/images/headers/notesheader.jpg" pagetitle="Notes" headertextcolor="white">
             <Head>
                 <title>Notes</title>
             </Head>
-            <h1>Notes</h1>
 
             <h2>A place to share my notes</h2>
 

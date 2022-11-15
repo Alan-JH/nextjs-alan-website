@@ -50,24 +50,9 @@ export function ten_spaces() {
 
 export const siteTitle = name
 
-export default function Layout({ children, home , layout_type}) {
+export default function Layout({ children, home , layout_type, bgimage, pagetitle, headertextcolor }) {
   return (
     <div className={layout_type}>
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
-        <meta
-          property="og:image"
-          content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-        />
-        <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Head>
       <header className={styles.header}>
         {home ? (
           <>
@@ -96,24 +81,41 @@ export default function Layout({ children, home , layout_type}) {
         ) : (
           <>
             {header_links()}
-
-            <Link href="/">
-              <a>
+            <div className={styles.heroWrapper}>
+              <div className={styles.imageWrapper}>
                 <Image
                   priority
-                  src="/images/profile.jpg"
-                  className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
-                  alt={name}
+                  src={bgimage}
+                  layout="fill"
+                  objectFit="cover"
+                  objectPosition="center"
+                  alt={bgimage}
                 />
-              </a>
-            </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
+              </div>
+
+              <div className={styles.heroContent}>
+                <br></br>
+                <br></br>
+                <Link href="/">
+                  <a>
+                    <Image
+                      priority
+                      src="/images/profile.jpg"
+                      className={utilStyles.borderCircle}
+                      height={108}
+                      width={108}
+                      alt={name}
+                    />
+                  </a>
+                </Link>
+                <h2 className={utilStyles.headingLg} style={{color:headertextcolor}}>
+                  <Link href="/">
+                    <a className={utilStyles.colorInherit}>{name}</a>
+                  </Link>
+                </h2>
+                <h1 style={{color:headertextcolor}}><center>{pagetitle}</center></h1>
+              </div>
+            </div>
           </>
         )}
       </header>

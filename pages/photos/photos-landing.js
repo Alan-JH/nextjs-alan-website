@@ -3,15 +3,15 @@ import Layout from '../../components/layout'
 import styles from '../../components/layout.module.css'
 import "react-image-lightbox/style.css";
 import {galleriesHeader} from '../../components/gallery-elements'
+import Image from 'next/image'
 
 export default function FirstPost() {
 
   return (
-    <Layout layout_type={styles.container}>
+    <Layout layout_type={styles.container} bgimage = "/images/headers/photographyheader.jpg" pagetitle = "Photos" headertextcolor = "white">
       <Head>
         <title>Alan's Photography</title>
       </Head>
-      <h1>Photography</h1>
 
       <h2><center> Galleries </center></h2>
       {galleriesHeader()}
