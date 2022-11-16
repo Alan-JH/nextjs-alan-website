@@ -75,7 +75,7 @@ export default function Layout({ children, home , layout_type, bgimage, pagetitl
             &nbsp;|&nbsp;
             <a href="https://www.youtube.com/channel/UC3O73QlR3EvTSLFo3HZKcKQ" className="button" target="_blank">Youtube</a>
             &nbsp;|&nbsp;
-            <a href="www.linkedin.com/in/alan--hsu" className="button" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/alan--hsu" className="button" target="_blank">LinkedIn</a>
             </h3>
           </>
         ) : (
