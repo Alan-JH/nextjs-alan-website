@@ -39,7 +39,8 @@ export default function FirstPost() {
       remaining supplementals and my personal statement to the list, as well as “work on website”, which I knew I wouldn't have the 
       time or drive to do for the next month. As a result I just ignored that section of the list, and it wasn't useful to get it done. 
       Instead, I should have divided these tasks up into things I could do in an hour. For example, “first draft of Umich long supplement” 
-      or “rough draft of Common App” or “update builds page of website.” 
+      or “rough draft of Common App” or “update builds page of website.” Take more of a "daily hitlist" approach, rather than a full list of
+      everything you have to do for the next year.
       </p>
       <p>
       Additionally, give a mix of items that you will enjoy doing and items that you won't. Even if you know you will do that thing, 
