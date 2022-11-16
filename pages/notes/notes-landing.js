@@ -20,9 +20,10 @@ export function front_page_post_list(){
   }
   
   export function full_post_list(){
-    return <ul>
+    return <div>
       {notes_list_element_full("How I (Mostly) Made This Website", "how-i-made-this-website", "notes")}
-    </ul>
+      {notes_list_element_full("On To-do lists", "todo-lists", "notes")}
+    </div>
   }
   
     export default function FirstPost() {
