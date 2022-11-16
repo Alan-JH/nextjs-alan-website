@@ -49,7 +49,7 @@ export default function FirstPost() {
       Another good walk around prime lens, that I picked up at a camera store for $30. Not quite as fast as the Takumar, but faster than the Sony kit lens. 
       Also built like a tank, and the glass does not seem to be radioactive, as it does not have any noticeable tint.
       
-      <h4>Pro Automatic 75-230mm f4.5</h4>
+      <h4>Pro Automatic 90-230mm f4.5</h4>
       An absolute monster of a telephoto lens, weighing in at 900 grams, found on the bargain shelf of the camera store with no price tag. 
       I got this one mainly as a joke, but it is actually a great telephoto considering the $15 I spent on it, and I have used it a couple times on my Pentax. 
       It is technically faster than my E mount telephoto, but I don't think that is worth the weight expense...
@@ -60,7 +60,12 @@ export default function FirstPost() {
       objectFit='contain'
       loading="lazy"
       />
-      If I'm not careful, I might snap my E mount right off
+      <center>If I'm not careful, I might snap my E mount right off</center>
+
+      <h4>Super Takumar 135mm f3.5</h4>
+      Similarly built to the 50mm f1.4, but a zoom prime lens. 
+      Honestly not sure what exactly to use this for, as it's not quite telephoto, but also too much zoom for portrait or walkaround. 
+      So far I've just been using it for interesting walkaround shots.
 
     </Layout>
 
