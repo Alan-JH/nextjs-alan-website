@@ -20,24 +20,8 @@ export default function Home() {
   return (
     <Layout home layout_type={styles.containerHome}>
       <Head>
-      {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-              page_path: window.location.pathname,
-            });
-          `,
-            }}
-          />
         <title>{siteTitle}</title>
+        <meta name="google-site-verification" content="3G5QUBokac5BO13aqWAwOeotGapxFTlmjd5r6hyCyic" />
       </Head>
 
       <section className={utilStyles.headingMd}>
