@@ -66,7 +66,7 @@ caption: string caption
 */
 export function image(dir, link, filename, w, h, descr){
     return {
-        src: "/photography/" + dir + "/" + filename,
+        src: "/" + dir + "/" + filename,
         original: link,
         width: w,
         height: h,

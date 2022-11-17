@@ -4,7 +4,7 @@ import imutils
 dir = input("Enter directory to compress: ")
 
 images = []
-with open("./public/photography/" + dir + "/list.txt") as f:
+with open("./public/" + dir + "/list.txt") as f:
     count = 1
     for line in f:
         link, descr = line.strip().split(", ")
@@ -18,7 +18,7 @@ with open("./public/photography/" + dir + "/list.txt") as f:
 
         # resize image
         resized = cv2.resize(img, dim, interpolation = cv2.INTER_AREA)
-        cv2.imwrite("./public/photography/" + dir + "/" + str(count) + ".jpg", resized)
+        cv2.imwrite("./public/" + dir + "/" + str(count) + ".jpg", resized)
 
         images.append((dir, link, str(count) + ".jpg", img.shape[1], img.shape[0], descr))
         count += 1
