@@ -26,6 +26,8 @@ export default function FirstPost() {
       <br></br>
       {img_photo_descrip_block("Guillows 1:16 Spitfire", "This was my first model, a balsa stick and tissue with a wind up propeller. Ran from March to April 2018", "/images/models/spitfire.jpg")}
       {img_photo_descrip_block("Guillows 1:16 BF-109", "My second model, another balsa stick and tissue, and this one had the option for longer wings for better flight, that I did not use. Ran from April to June 2018", "/images/models/bf109.jpg")}
+      {img_photo_descrip_block("Testor 1:35 M4A3", "My first armor model, but not exactly a full kit. It ended up being a test bed for weathering techniques", "/images/models/m4a3.jpg")}
+      {img_photo_descrip_block("Zvezda 1:35 T-34-85", "This was my first proper armor model. I tried more weathering techniques on it, but didn't give it an acrylic paint coat because I figured the plastic was already colored correctly... This lead to white spots on the front from oil paint thinner", "/images/models/t3485-1.jpg")}
 
     </Layout>
 
