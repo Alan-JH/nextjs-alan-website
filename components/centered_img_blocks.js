@@ -17,21 +17,21 @@ export function triple_centered_img_block(p_l, p_m, p_r,
           <div class="row">
             <div class="col my-auto">
               <img
-              src = {'/images/' + p_l}
+              src = {p_l}
               alt = ''
               loading="lazy"
               />
             </div>
             <div class="col my-auto">
             <img
-              src = {'/images/' + p_m}
+              src = {p_m}
               alt = ''
               loading="lazy"
               />
             </div>
             <div class="col my-auto">
             <img
-              src = {'/images/' + p_r}
+              src = {p_r}
               alt = ''
               loading="lazy"
               />
@@ -58,14 +58,14 @@ export function dual_centered_img_block(photo_path_left, photo_path_right,
       <div class="row">
         <div class="col my-auto">
         <img
-          src = {'/images/' + photo_path_left}
+          src = {photo_path_left}
           alt = ''
           loading="lazy"
           />
         </div>
         <div class="col my-auto">
         <img
-          src = {'/images/' + photo_path_right}
+          src = {photo_path_right}
           alt = ''
           loading="lazy"
           />
