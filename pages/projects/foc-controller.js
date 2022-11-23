@@ -49,7 +49,7 @@ export default function FirstPost() {
 
       <br></br>
       <br></br>
-      <Link href="https://m.youtube.com/watch?v=_6-_jvZe7iA" target="_blank">This video by Texas Instruments</Link>&nbsp;explains the concept very well, but (if I remember correctly) the Park transform formula is incorrect
+      <Link href="https://m.youtube.com/watch?v=_6-_jvZe7iA" target="_blank">This video by Texas Instruments</Link>&nbsp;explains the concept very well, but the Park transform formula is incorrect
       <br></br>
       
       <h2>The Practice</h2>
