@@ -89,7 +89,7 @@ export function dual_centered_img_block(photo_path_left, photo_path_right,
       <div class="row">
         <div class="col-sm">
         <img
-          src = {'/images/' + photo_path}
+          src = {photo_path}
           alt = ''
           loading="lazy"
           />
