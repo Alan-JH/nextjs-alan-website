@@ -7,7 +7,8 @@ images = []
 with open("./public/" + dir + "/list.txt") as f:
     count = 1
     for line in f:
-        link, descr = line.strip().split(", ")
+        ls = line.strip().split(", ")
+        link, descr = ls[0], ", ".join(ls[1:])
         img = imutils.url_to_image(link)
 
         print('Original Dimensions : ',img.shape)
