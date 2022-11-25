@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { img_photo_descrip_block } from '../../components/img_blocks'
 import styles from '../../components/layout.module.css'
 
-const title = "Title"
+const title = "DI(WH)Y Lab Power Supply"
 
 export default function FirstPost() {
   return (
@@ -19,6 +19,8 @@ export default function FirstPost() {
         <a>Back to projects</a>
       </Link>
       <br></br>
+
+      
 
     </Layout>
 

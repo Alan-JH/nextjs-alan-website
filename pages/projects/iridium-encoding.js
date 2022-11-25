@@ -109,7 +109,7 @@ export default function FirstPost() {
       </p>
 
       <h2>Implementation</h2>
-      The full Iridium driver is available <Link href="https://github.com/TJREVERB/pfs-rewrite/blob/flight-dev/Drivers/iridium.py" target="_blank">here</Link>.
+      The full Iridium driver is available <a href="https://github.com/TJREVERB/pfs-rewrite/blob/flight-dev/Drivers/iridium.py" target="_blank">here</a>.
       <h3>Command Decode Implementation</h3>
       <center>
         <img layout="fill" src="/images/reverb/decode.png"/>

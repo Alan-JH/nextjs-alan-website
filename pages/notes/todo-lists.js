@@ -56,7 +56,7 @@ export default function FirstPost() {
       <p>
       The only items that I have to do are the first two. The rest are optional; not time sensitive, but more enjoyable and more likely 
       for me to do. If I just had the first two on my list, and I did my best to commit to the list, then I would be having a terrible 
-      time. But by keeping a full plate, as <Link href="https://www.youtube.com/watch?v=tEo_8lsEUB0" target="_blank">Louis Rossmann</Link>&nbsp; 
+      time. But by keeping a full plate, as <a href="https://www.youtube.com/watch?v=tEo_8lsEUB0" target="_blank">Louis Rossmann</a>&nbsp; 
       calls it, I can be productive and feel productive.
       </p>
 
