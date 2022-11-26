@@ -66,6 +66,10 @@ export default function FirstPost() {
         of consideration for every added part, unlike TJ-EPS, where I just added everything because a certain other EPS design had it.
       </p>
 
+      <p>
+        This page is a work in progress, last updated 23 Nov 2022
+      </p>
+
     </Layout>
 
   )

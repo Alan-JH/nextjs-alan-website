@@ -67,6 +67,9 @@ export default function FirstPost() {
       Lessons learned from this project were that theory is sometimes very hard to put into practice, and being able to trust your instruments and sensors is extremely important. I also gained a healthy respect and fear
       of debugging control loops.
 
+      <p>
+        Last updated 23 Nov 2022
+      </p>
     </Layout>
 
   )

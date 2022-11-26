@@ -32,7 +32,7 @@ export default function FirstPost() {
 
       {gallery(images)}
 
-      Last updated 24 November 2022
+      Last updated 25 November 2022
 
     </Layout>
 

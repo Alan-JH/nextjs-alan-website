@@ -122,6 +122,10 @@ export default function FirstPost() {
       <br></br>
       The encode and decode functions on groundstation are similar, but inverted.
 
+      <p>
+        Last updated 25 Nov 2022
+      </p>
+
     </Layout>
 
   )

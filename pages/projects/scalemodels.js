@@ -36,7 +36,9 @@ export default function FirstPost() {
       {double_img_photo_descrip_block("Tamiya 1:35 Pz. VI Tiger", "Also purchased at the Tank Museum, this was the last model I made before freshman year at TJ, so I rushed towards the end and never got to weathering it. Painting the rubber rims into the roadwheels took absolutely forever, and I don't think I will do another German big cat in the near future.", "/images/models/tiger-1.jpg", "/images/models/tiger-2.jpg")}
       {triple_img_photo_descrip_block("Revell 1:72 F/A-18C Hornet", "After freshman year, I had a lot of time over the summer, so I decided to get back into scale models, this time with the plane that I had been flying in DCS World. This was the first kit since the Zvezda that wasn't Tamiya quality. It wasn't too detailed, and the parts took some sanding to fit together smoothly. I also had to cut into the wing parts to put the flaps down, and bought a separate kit for a pilot figure. But overall it was a blast, and I am super proud of the carrier landing diorama.", "/images/models/hornet-1.jpg", "/images/models/hornet-2.jpg", "/images/models/hornet-3.jpg")}
       {triple_img_photo_descrip_block("Tamiya 1:72 F-16CJ Bl.50 Viper", "Immediately after the Hornet, I wanted to do another, and I also wanted to go back to Tamiya quality, so I picked out the Tamiya F-16. The kit had a much more complete wild weasels loadout than the Revell, and I made a diorama of a fox-3 shoot with cotton, some 2mm steel rods, and a 3D printed base. The only thing I wish I had done differently was using a satin varnish instead of gloss, because it's a little unrealistically shiny. This model has the honor of sitting atop my PC.", "/images/models/viper-1.jpg", "/images/models/viper-2.jpg", "/images/models/viper-3.jpg")}
-
+      <p>
+        Last updated 17 Nov 2022
+      </p>
     </Layout>
 
   )
