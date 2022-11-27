@@ -81,11 +81,11 @@ export default function Home() {
           height = {icon_size}
           align = "left"
           style={{marginTop: 3}}
-        />&nbsp;&nbsp;I take <Link href="/photos/photos-landing" >
-        <a>mediocre photos</a>
+        />&nbsp;&nbsp;Check out my <Link href="/photos/photos-landing" >
+        <a>photos</a>
         </Link>
         <br></br>
-        🎵&nbsp;&nbsp;&nbsp;Probably listening to flipturn, Blue Rain Boots, Friday Pilot's Club, or I DONT KNOW HOW BUT THEY FOUND ME
+        🎵&nbsp;&nbsp;&nbsp;Probably listening to flipturn, RMCM, Friday Pilot's Club, or IDKHOW
         <br></br>
         🎹&nbsp;&nbsp;&nbsp;Play the piano
       </section>
