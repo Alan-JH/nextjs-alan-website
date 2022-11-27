@@ -121,7 +121,7 @@ export default function FirstPost() {
       <h3>Nikon F-Mount Lenses</h3>
       Courtesy of my grandparents, I now have a couple Nikon F-mount lenses
       <h4>Tamron AF28-200mm f3.8-5.6 LD Aspherical IF Super</h4>
-      The most convenient focal length range that I currently own. There is some noticeable distortion at the wider and narrower zoom settings, and the lens itself feels (like the F50) cheap, and almost 
+      The most convenient focal length range that I currently own. There is some noticeable distortion at the wider and narrower zoom settings, and the lens itself feels cheap (like the F50), and almost 
       like a toy, but I do appreciate the range and the compact form factor of the lens considering the focal length.
 
       <h4>Nikon AF Nikkor 28-80mm f3.5-5.6G</h4>
@@ -130,7 +130,7 @@ export default function FirstPost() {
       <h3>Misc. Gear</h3>
       <h4>Darktable</h4>
       When I do post processing, I use Darktable, an open source Linux compatible light table and dark room application. It handles exposure, color correction, and even astro denoising well enough for me.
-      I'm honestly pretty lazy and post most of my digital photos unedited, but if there is a blatantly incorrectly exposed or noisy photo, I will edit them. I have also done a couple more artistic edits
+      I'm honestly pretty lazy and post most of my digital photos unedited, but if there is a blatantly incorrectly exposed or noisy photo, I will edit it. I have also done a couple more artistic edits
       by playing around with color correction.
 
       <h4>Peak Design Capture</h4>
