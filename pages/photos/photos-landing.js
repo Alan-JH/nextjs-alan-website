@@ -79,6 +79,14 @@ export default function FirstPost() {
       in the 1950s and is fully mechanical with no built in light meter. The FX-7 is a typical '70s or '80s SLR, with through the lens metering but no auto mode. The shutter is completely mechanical and there
       is a bulb function, which is nice. The 109 is another loud '90s era auto advance camera, but I think I prefer it over the F50 because it embodies the '90s aesthetic and doesn't try to look professional.
       The only issue is that no one uses Yashica mount. I haven't gotten the batteries to get the Nikon N65 working, and I honestly don't really intend to anytime soon. The Toma M900 seems to be broken.
+      <br></br>
+      <br></br>
+      <img
+      src = "/photography/bodies.jpg"
+      layout='fill'
+      objectFit='contain'
+      loading="lazy"
+      />
 
       <h3>Sony E-Mount Lenses</h3>
       <h4>Sony E 55-210mm f4.5-6.3 OSS</h4>
