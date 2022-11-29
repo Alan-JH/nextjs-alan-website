@@ -75,7 +75,7 @@ export default function FirstPost() {
 
       <h4>Other</h4>
       My grandfather on the other side of the family had a bunch of film cameras, and they were left to my grandmother when he passed away. These included a Yashica FX-7, Yashica 109, Nikon N65,
-      Toma M-900 point and shoot, and an ancient Afga Karat from before SLRs were a thing. I haven't had a chance to take test shots with each of these yet, but they seem very cool. The Afga was last produced
+      Toma M-900 point and shoot, and an ancient Agfa Karat from before SLRs were a thing. I haven't had a chance to take test shots with each of these yet, but they seem very cool. The Agfa was last produced
       in the 1950s and is fully mechanical with no built in light meter. The FX-7 is a typical '70s or '80s SLR, with through the lens metering but no auto mode. The shutter is completely mechanical and there
       is a bulb function, which is nice. The 109 is another loud '90s era auto advance camera, but I think I prefer it over the F50 because it embodies the '90s aesthetic and doesn't try to look professional.
       The only issue is that no one uses Yashica mount. I haven't gotten the batteries to get the Nikon N65 working, and I honestly don't really intend to anytime soon. The Toma M900 seems to be broken.
