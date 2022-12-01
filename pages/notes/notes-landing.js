@@ -23,6 +23,7 @@ export function front_page_post_list(){
     return <div>
       {notes_list_element_full("How I (Mostly) Made This Website", "how-i-made-this-website", "notes")}
       {notes_list_element_full("On To-do lists", "todo-lists", "notes")}
+      {notes_list_element_full("Nostalgic Part Numbers", "part-numbers", "notes")}
     </div>
   }
   
