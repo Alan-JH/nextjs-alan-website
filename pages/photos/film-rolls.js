@@ -68,7 +68,7 @@ export default function FirstPost() {
         The grain is definitely interesting and leaves a painting-like effect.
       </p>
 
-      {gallery(first_roll)}
+      {gallery(images)}
 
       Last updated 2 December 2022
 
