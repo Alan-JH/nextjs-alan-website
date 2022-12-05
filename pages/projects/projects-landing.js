@@ -15,6 +15,7 @@ export function full_post_list(){
       {notes_list_element_full("TJREVERB Battery Capacity Test Code", "reverb-batt-tester", "projects")}
       {notes_list_element_full("TJREVERB Iridium Communications Protocol", "iridium-encoding", "projects")}
       {notes_list_element_full("TJREVERB Interface Board", "reverb-interface", "projects")}
+      {notes_list_element_full("C-130 CNI-MU", "cni-mu", "projects")}
       {notes_list_element_full("PCB Reflow Hotplate", "pcb-heater", "projects")}
       {notes_list_element_full("TKL-86 Keyboard", "tkl-86", "projects")}
       {notes_list_element_full("F/A-18C UFC", "ufc", "projects")}

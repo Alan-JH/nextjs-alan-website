@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { img_photo_descrip_block } from '../../components/img_blocks'
 import styles from '../../components/layout.module.css'
 
-const title = "Title"
+const title = "F/A-18C Up Front Controller"
 
 export default function FirstPost() {
   return (
