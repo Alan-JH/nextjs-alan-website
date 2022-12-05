@@ -57,6 +57,7 @@ export default function FirstPost() {
         <img src="/images/reverb/batt-report.png"/>
         Jubilation
       </center>
+      Last updated 5 December 2022
     </Layout>
 
   )

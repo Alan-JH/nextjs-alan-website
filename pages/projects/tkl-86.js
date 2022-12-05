@@ -44,6 +44,7 @@ export default function FirstPost() {
       <p>
         I still daily drive this keyboard, and it continues to annoy my parents and anyone else who happens to be in the same room while I'm typing.
       </p>
+      Last updated 5 December 2022
     </Layout>
 
   )
