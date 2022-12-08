@@ -11,7 +11,9 @@ export function galleriesHeader(){
     &nbsp;|&nbsp;
     <a href="/photos/plane-spotting" className="button">Plane Spotting!</a>
     &nbsp;|&nbsp;
-    <a href="/photos/astro" className="button">Astro Photography</a>
+    <a href="/photos/astro" className="button">Astro</a>
+    &nbsp;|&nbsp;
+    <a href="/photos/macro" className="button">Macro</a>
     &nbsp;|&nbsp;
     <a href="/photos/film-rolls" className="button">Film Rolls</a>
     </center></h3>
