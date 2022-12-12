@@ -82,18 +82,18 @@ export default function FirstPost() {
         An aside about how you <i>should</i> do this
       </h3>
       <p>
-        DSLR scanning is already the janker method of scanning in digitals, but using extensions on a normal lens is even more jank. Dedicated macro lenses are the best for this purpose, followed by enlarging lenses, followed by normal lenses with extensions. 
+        DSLR scanning is already the janker method of scanning in film, but using extensions on a normal lens is even more jank. Dedicated macro lenses are the best for this purpose, followed by enlarging lenses, followed by normal lenses with extensions. 
       </p>
       <p>  
         Why?
         Normal lenses are not designed to be mounted to extensions, so by adding extensions you make the effective aperture smaller, amplify any imperfections like aberrations, and introduce potential for color imperfections. Enlarging lenses are slightly better,
-        because they were designed to be used to blow up 35mm film onto prints, so they are designed to have little to no aberrations, sharp optics, and near perfect rectilinear projection (few distortions). However, using them in this context is still not ideal, as they
+        because they were designed to be used to blow up 35mm film onto prints, so they have little to no aberrations, sharp optics, and near perfect rectilinear projection (few distortions). However, using them in this context is still not ideal, as they
         are mostly intended for 8:1 to 12:1 magnification, not the near 1:1 that DSLR scanning calls for. Still, a Nikkor 50mm f2.8 enlarger goes for about $50, so they are pretty cheap and should get the job done better than normal extended lenses.
       </p>
       <h3>Monday</h3>
       <p>
         Monday came around, and I stopped by the Robotics lab to 3D print a 24.5mm extension and pick it up in 7th period. The first layer got messed up, so I couldn't screw it all the way onto the M42 mount, but it did work as a macro extension, and I did take a couple
-        photos with it with my Sony and my Pentax film camera. 
+        photos with it with my Sony and my Pentax. 
       </p>
       <center>
         <img src="/images/filmscanner/pentax.jpg"/>
@@ -116,7 +116,7 @@ export default function FirstPost() {
       <p>
         On Tuesday, I finished up my design and 3D printed it again in the Robotics lab. I also printed another macro extension, this time with good threads and a thicker outer diameter to make it look better. I brought some expired negatives I didn't care about damaging, and 
         stayed after school working on my design at a CubeSat meeting, laser cutting a bottom plate and messing around with macro photography at 50mm. The design used three laser cut plywood bottom sheets layered on top of each other, and a 3D printed mount for the camera 
-        (via a peakdesign plate) and the hood (via two M5 bolts). I made sure to make the M5 mounting holes slots so that I could adjust the film forward or back to be in focus. I had measured the focusing distance to 21cm or so (as listed by an online lens magnification calculator) 
+        (via a peakdesign plate) and the hood (via two M5 bolts). I made sure to make the M5 mounting holes slots so that I could adjust the film forward or back to be in focus. I had measured the focusing distance to 21cm or so (as listed by that online lens magnification calculator) 
         but there was a decent chance it would be off, especially considering the millimeter-level depth of field that the macro extensions yielded.
       </p>
       <center>
@@ -141,7 +141,7 @@ export default function FirstPost() {
       <p>
         Thursday was much the same as Wedesnday, except this time I 3D printed a film holder instead of sliding film between two pieces of 3M VHB tape so that I wouldn't have to take the hood cap piece off whenever I wanted to load film. I continued to try to reverse Tak tint on expired negatives,
         not wanting to risk damaging my non expired Ektar negatives until I had a good method down. I also played around with using bluer backlights. It was beginning to dawn on me that negadoctor removes most variations in white balance and tint by allowing you to sample a section of the image
-        as the film stock color.
+        as the film stock color, so the Tak tint shouldn't matter.
       </p>
       <center>
         <img src="/images/filmscanner/filmholder.jpg"/>
@@ -150,7 +150,7 @@ export default function FirstPost() {
       <h3>Friday</h3>
       <p>
         On Friday, I received my 95 CRI backlight and mounted it to the setup with a 3D printed attachment that I glued to the plywood. The images were about the same as with my phone backlight, but the new backlight has the option for higher brightness and more temperature adjustment.
-        I finally gave up on non expired negatives and decided to take out my Ektars, and these were FAR easier to work with. 
+        I finally gave up on expired negatives and decided to take out my Ektars, and these were FAR easier to work with. 
         I found that applying negadoctor settings and then adjusting white balance until colors matched worked well. I also took a scan with my Sony 16-50 kit lens, 
         which was heavily cropped because I didn't have macro extensions for E mount, just to test whether the Tak tint was actually causing color issues. I applied the same negadoctor and white balance processes, and the image came out almost identical, so the Tak is fine. 
       </p>
@@ -162,7 +162,7 @@ export default function FirstPost() {
       <p>
         On Saturday, I found two helpful videos by Alex Burke on <a href="https://www.youtube.com/watch?v=ylIyA6wQGcY" target="_blank">basic color inversion</a>&nbsp;for film scans in Photoshop, and <a href="https://www.youtube.com/watch?v=urw5x03c9gs" target="_blank">more advanced techniques</a>&nbsp;
         when basic color references aren't present. I got a 7 day trial of Adobe Creative Cloud just to try this out, and the results were pretty similar. But I was impressed by how easy Photoshop made the manual process, compared to darktable's relatively clunky UI. I was working to try to match the colors 
-        that I got in the scans I got from the store, but I just couldn't get that "filmy" quality. When I took a step back and looked at my scans on their own though, they were still pretty nice.
+        in the scans I got from the store, but I just couldn't get that "filmy" quality. When I took a step back and looked at my scans on their own though, they were still pretty nice.
       </p>
       {gallery(photoshop)}
       <p>
