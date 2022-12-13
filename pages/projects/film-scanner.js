@@ -68,7 +68,7 @@ export default function FirstPost() {
       </Link>
       <br></br>
       <p>
-        This was a one week sprint project in December of senior year. No CAD files yet, but I will upload them soon
+        This was a one week sprint project in December of senior year. CAD files are available <a href="https://www.thingiverse.com/thing:5707027" target="_blank">here</a>&nbsp;if you also happen to have a Sony a6000 and Super Takumar 50mm
       </p>
       <p>
         I have been getting my film rolls developed and scanned at a local camera store, for $16 total ($8 for developing C41, and $8 for scanning to a USB drive). On Sunday, Amazon recommended me a 60mm 7artisans 1:1 magnification macro lens
@@ -176,16 +176,30 @@ export default function FirstPost() {
       <li>Using a representative frame, set focus (in my case between 0.55m and 0.6m on the lens)</li>
       <li>Set shutter speed so that you expose to the right to maximize range (histogram should be just to the right of center, but not too far right so as to not clip highlights)</li>
       <li>Take photos of each frame using the same exposure settings for ease of correction</li>
+
+      <p>
+        From here, there is a choice between darktable and Photoshop. Photoshop is much more manual and deliberate, forcing you to make decisions about individual colors and hues, while darktable allows much faster edits and a much more standardized process through the negadoctor feature.
+      </p>
+      <h4>Using darktable</h4>
       <li>Load the RAW files into darktable</li>
       <li>For each RAW file, disable default adjustments like filmic RGB, sharpen, and highlight reconstruction</li>
       <li>Enable negadoctor, use the eyedropper tool to sample a non exposed part of the negative as the film stock color</li>
       <li>Decrease the dynamic range of the film until the exposure looks good (for me it's usually between 0.6 and 1.0 depending)</li>
       <li>Go to white balance, adjust white balance until the colors look right. Generally, blue needs to be increased (to decrease blue after inversion), and red can be decreased by a bit</li>
+      <h4>Using Photoshop</h4>
+      The videos linked above go into quite a bit of detail on the procedure, but here is an abridged version:
+      <li>Load the RAW file into Photoshop</li>
+      <li>Add a curve layer, perform a simple invert by dragging the left up and the right down</li>
+      <li>Sample the color of the non exposed film stock using the eyedropper, create a new filled layer, subtract with less than 80% opacity to maintain shadows (sometimes as low is 50% is needed for poorly exposed shots)</li>
+      <li>Add another curve layer, and in each individual color channel drag to the left until you are just about to clip the highlights</li>
+      <li>Correct colors by creating a point on each spline and dragging up or down. Blue needs to be dragged down the most, then green a little bit, and red can be dragged up a bit if needed. Use known objects as color references</li>
+      <li>Add a hue/saturation layer, and adjust individual color hue/saturation/brightness until colors like the sky are correct. I find that I usually need to adjust blue to be a lighter hue and lower saturation. Don't overdo it, because it will be noticeable past a point</li>
 
       <p>
-        I'll still experiment with using Photoshop to manually invert negatives, because Photoshop gives much better control, especially with individual hue and saturation color channels, but it will take more time than in darktable. It does seem to be a much more deliberate process,
-        which is what film is all about for me anyways, so it would encourage me to actually edit my film scans.
+        I'm still working on my Photoshopping skills, but it does seem much more promising than darktable in terms of control.
       </p>
+      <h3>Future improvements</h3>
+      The plywood is a bit of a jank solution, so I may try to use some 2020 aluminum extrusion instead for the base, to give it more rigidity and keep it straighter. I also should design a better way of adjusting the camera's view of the frame up, down, left, and right.
       <h3>Shoutout</h3>
       <p>
         Thanks to my boi Aarush Sivanesan for helping debug, giving me tips on lighting, and providing feedback on my scans
@@ -195,7 +209,7 @@ export default function FirstPost() {
       </center>
 
       <p>
-        Last updated 11 Dec 2022
+        Last updated 12 Dec 2022
       </p>
     </Layout>
 

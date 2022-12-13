@@ -23,7 +23,8 @@ export default function FirstPost() {
         <a href="https://github.com/TJREVERB/reverb_interface" target="_blank">Github Repo</a>
       </p>
       <p>
-        When the 2022-23 TJREVERB team came in over the summer, the interface board on the flatsat was an old version with incorrect routing corrected with jumper wires.
+        When the 2022-23 TJREVERB team came in over the summer, the interface board on the flatsat was an old version with incorrect routing corrected with jumper wires. 
+        After spending about a month working with it and getting familiar with the design, 
       </p>
     </Layout>
 
