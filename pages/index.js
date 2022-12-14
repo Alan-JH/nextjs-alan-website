@@ -66,7 +66,7 @@ export default function Home() {
           align = "left"
           style={{marginTop: 3}}
           href="https://github.com/TJREVERB"
-        />&nbsp;&nbsp;helped launch a <a href="https://activities.tjhsst.edu/cubesat/" target="_blank">2U cubesat</a>
+        />&nbsp;&nbsp;Launched a <a href="https://tjhsst.fcps.edu/features/launch-tjreverb-culmination-seven-year-project-tj-space" target="_blank">2U cubesat</a>
         <br></br>
         🌕&nbsp;&nbsp;&nbsp;designed electronics for rovers at Starpath Robotics
         <br></br>
