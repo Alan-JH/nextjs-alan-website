@@ -85,7 +85,9 @@ export const images = [
   image("photography/planes", "https://lh3.googleusercontent.com/pw/AL9nZEUbTZqR05u4-rldogviJFrQIR0dMV_eUZ1rRCqnR_nKq0PLHBKWDneQ15zciTqqpkSBvLgGixyuLhxmYZmzU3ck1PZe5qJuf8E18Z8NtQYdGKXE9yiceGeWeErMKFVqcfZ7LwYW2dKEP3A_CytMyzxkDQ=w1373-h915-no?authuser=0", "79.jpg", 1372, 915, "26 Nov 2022 | Sony E 55-210 f4.5-6.3 OSS (@210mm) | San Diego International"),
   image("photography/planes", "https://lh3.googleusercontent.com/pw/AL9nZEV3-u5zozJv9c-fd8sTxQwg8kVqbxvZ9QiYwkuQa6hMrWji239Vxbz-gjpKjHhfqcJ5977WhAuQ6rbkBPHVJzRXHcqMS3RpRg9zAn7dlF3dKacH-GNuPEZcrkRKWhp2HoJ1pAOXhbZyZdYwASRS4a8Cog=w1373-h915-no?authuser=0", "80.jpg", 1372, 915, "26 Nov 2022 | Sony E 55-210 f4.5-6.3 OSS (@210mm) | San Diego International"),
   image("photography/planes", "https://lh3.googleusercontent.com/pw/AL9nZEWsMbkeiihx-MSPksXPnJS223sTUQosa-KttI-HoEr0tLK8kl3owR0AZCXRnLDcernIMsc2AOGN9051edYWwY3-F4dQclMqRsegzJ-HBQMrapKAsO3jojkrsE6RPCewC3r2h2rwJd3NrG1Ads13-Abz-w=w1373-h915-no?authuser=0", "81.jpg", 1372, 915, "26 Nov 2022 | Sony E 55-210 f4.5-6.3 OSS (@210mm) | San Diego International"),
-  ];
+  image("photography/planes", "https://lh3.googleusercontent.com/pw/AL9nZEXEjrjDTdDyNqllcGA37jiWQBwDQ_wgCt-VscBdupU1nQP5LyoFvQ-QOkQzTZZYOJ5TjFlGW8aOlyDy_NXREYoTd1LfzQJUddapl6pdn0L5yWUpcWOg-ZhdRg8WPTEKvuSNC2DFM0fPMi1WQfHEU22B_w=w2016-h1336-no?authuser=0", "82.jpg", 2016, 1336, "26 Nov 2022 | Super Takumar 135mm f3.5 on Pentax ME Super | San Diego International | My first (but not last) film plane shot"),
+
+];
 
 export default function FirstPost() {
   return (
