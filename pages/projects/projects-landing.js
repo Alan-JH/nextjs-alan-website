@@ -22,7 +22,6 @@ export function full_post_list(){
       {notes_list_element_full("F/A-18C UFC", "ufc", "projects")}
       {notes_list_element_full("Flight Sim Throttle v2", "throttle-v2", "projects")}
       {notes_list_element_full("Viper Sidestick", "viper-stick", "projects")}
-      {notes_list_element_full("Flight Sim Throttle v1", "throttle-v1", "projects")}
       {notes_list_element_full("Flight Sim Rudder Pedals", "rudder-pedals", "projects")}
       {notes_list_element_full("TrackIR Clip", "trackir", "projects")}
       {notes_list_element_full("Scale Models", "scalemodels", "projects")}
