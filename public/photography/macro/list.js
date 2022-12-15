@@ -1,4 +1,4 @@
-import {image} from '../../components/gallery-elements'
+import {image} from '../../../components/gallery-elements'
 export const images = [
 	image("photography/macro", "https://lh3.googleusercontent.com/pw/AL9nZEV5h51ag4Qe2ig1PVsezF6-GcJ37JuXlZ2OCwUOgZcXPsFS1EkJo3WM0CED3KOOUuUkPJxVcJCQLWhk1f-bMtH8Gv8p4L2_ccnfTZWZtjHHVSeHjLnx5uYz2jknBPrG1sKCez65SiJZ2wbcQCore0jNOg=w1463-h975-no?authuser=0", "1.jpg", 1462, 975, "5 Dec 2022 | Super Takumar 50mm f1.4 with 25mm extension | film scanning receipt"),
 	image("photography/macro", "https://lh3.googleusercontent.com/pw/AL9nZEX5Aj4RTMZwVc9jud-VpSfaK5-LWgbnmXR8gegLk3ReVlfpSXyjpz6YpBmJO2LmNK0pJIbdeumI7rAe-52492SEIXeSl7RftaTCIrgtJdCIMdBrj8B4MTEzIQm6EUhJI8ve00ORoFgdtENXv9LCX59odQ=w1463-h975-no?authuser=0", "2.jpg", 1462, 975, "6 Dec 2022 | Super Takumar 50mm f1.4 with 50mm extension | Raspberry pi heatsink"),

@@ -1,4 +1,4 @@
-import {image} from '../../components/gallery-elements'
+import {image} from '../../../components/gallery-elements'
 export const images = [
 	image("photography/uav", "https://lh3.googleusercontent.com/pw/AL9nZEVEG9hzWSmAXWMwm3Y7_N3hsNDEpFRdFBbWhCaarXislPmDOeS5azvcVt08laB9eGxDYIXZMDJR-DO0O1Wvs2TJ3IYNM3nwe56EJ3dOTszxEVNiwOUw4V3d7w_uq0YLbZAooKLT0JKSLo65Wj9vwJ53=w1463-h975-no?authuser=0", "1.jpg", 1462, 975, "9 Oct 2022 | Super Takumar 50mm f1.4"),
 	image("photography/uav", "https://lh3.googleusercontent.com/pw/AL9nZEX87ajo-VT75cmHxNG2Co8mU2R1AKohRIoH20uIS1R5VVVJmEtYxiZguDZt5Ew2qw2qovmqI810B4SxR4d8sHohCOHk0Zau6usn-jh2PGxT7fTETIxLAYs8Et07R7jlh5rFMNQZE7_wlsYTRLVjvtqt=w1463-h975-no?authuser=0", "2.jpg", 1462, 975, "9 Oct 2022 | Super Takumar 50mm f1.4"),

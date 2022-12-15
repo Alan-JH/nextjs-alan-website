@@ -24,9 +24,8 @@ with open("./public/" + dir + "/list.txt") as f:
         images.append((dir, link, str(count) + ".jpg", img.shape[1], img.shape[0], descr))
         count += 1
 
-savedir = input("Enter page directory and filename: ")
-f = open("./pages/" + savedir, "w")
-f.write("import {image} from '../../components/gallery-elements'\n")
+f = open("./public/" + dir + "/list.js", "w")
+f.write("import {image} from '../../../components/gallery-elements'\n")
 f.write("export const images = [\n")
 for i in images:
     f.write(f"""\timage("{i[0]}", "{i[1]}", "{i[2]}", {i[3]}, {i[4]}, "{i[5]}"),\n""")

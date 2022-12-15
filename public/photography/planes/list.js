@@ -1,4 +1,4 @@
-import {image} from '../../components/gallery-elements'
+import {image} from '../../../components/gallery-elements'
 export const images = [
 	image("photography/planes", "https://lh3.googleusercontent.com/pw/AL9nZEVkRTel5KLjdAPQJq-i04b3rs24rlTn_VBXlHc8yt5pc3TwRMa02lvNzqgW6fz2uLUB4FdizwzeqMBqonUjB05e8ZzS3yZKixAFQIe_tgGm1RQ0FByAhhKAkSUtzhqXcPKauJ_3jeJ9CBsVfIfzdzhJ=w1463-h975-no?authuser=0", "1.jpg", 1462, 975, "4 Sep 2022 | Sony E 16-50 f3.5-5.6 PZ OSS (@47mm) | West Point | My first aircraft shot, taken with my Aunt's a6000"),
 	image("photography/planes", "https://lh3.googleusercontent.com/pw/AL9nZEXdHBzlAkQf-C4eWfhYlCQhD7t45vjzAbmpT0wik_L5tOdFEZwjx723N6Ia5XDg-Y32jH_4PU-d2Btu3EMHE-QLtQT2N249yCQYlmZB9E54rme6bmS_9njzHm86uqmEjbQ3tnLpYdu4Sti-RXskMC4_=w1463-h975-no?authuser=0", "2.jpg", 1462, 975, "10 Sep 2022 | Sony E 55-210 f4.5-6.3 OSS (@210mm) | Dulles | Allegiant 737 landing at Dulles (before a UAV meeting)"),

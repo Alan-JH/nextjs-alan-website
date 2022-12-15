@@ -1,4 +1,4 @@
-import {image} from '../../components/gallery-elements'
+import {image} from '../../../components/gallery-elements'
 export const images = [
 	image("photography/filmrolls", "https://lh3.googleusercontent.com/pw/AL9nZEV5Kddj2KMUix28-tD3VHHw7PvsEhqe6PFx0IwhS1C75U14RTUWcxXd0X0TaZ-yYtrHjb34o-N7Wp9G_lqwIkYp6QV1yTWhq4lAxErm_QZMFfFUFffDlWuTj9bFXGWn-pKF69F1yI1RvkOY97ZIz4eUtQ=w1471-h975-no?authuser=0", "1.jpg", 1471, 975, "6 Nov 2022 | Ektar 100 | Super Takumar 50mm f1.4 on Pentax ME Super | First shot ever, accidentally opened the back of my camera for this one..."),
 	image("photography/filmrolls", "https://lh3.googleusercontent.com/pw/AL9nZEW-NejY4VBuDWWZ25bC8Kjp4JupjEhzyBR0fQFTCWqOQzqRe4nrO5m0GJez-NQhlUHGoygLyJZB_DSsWq5bRV8N9OHyrsPdEhe8gPe24-j0xuPGyDOSQIci-WVuybK9lEuhcckslifNJ7jjwkXsL-yqVA=w1471-h975-no?authuser=0", "2.jpg", 1471, 975, "6 Nov 2022 | Ektar 100 | Super Takumar 50mm f1.4 on Pentax ME Super | Night shot that turned out unexpectedly well"),

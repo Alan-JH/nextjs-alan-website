@@ -1,4 +1,4 @@
-import {image} from '../../components/gallery-elements'
+import {image} from '../../../components/gallery-elements'
 export const images = [
 	image("photography/astro", "https://lh3.googleusercontent.com/pw/AL9nZEV7xsQEwBuu7vSoq68_hIsUGPxvf8OLgjFlfqOvsxsANa8UhTgQEXHxBhI0v2zS2SrlF3arq0VsqdUQt5UUEvX3iprXlhLIU3HS_z7wRxrBpcs9lZU3E5jR35S0LCocg9pwTEYdE26HaH4YywO81YYJ=w1463-h975-no?authuser=0", "1.jpg", 1462, 975, "9 Sep 2022 | Sony E 55-210 f4.5-6.3 OSS (@210mm) | Moon shot"),
 	image("photography/astro", "https://lh3.googleusercontent.com/pw/AL9nZEX9yWsznFfHiKhW_xd4wIuabdx50pfxiMHnohMZvOGx9B5QbDqOhuvgTe9NkzGLEVkRlAxgOXs0ts1TfPeXb75ov40KSScVTh2zzb73Fr6TJPDTZCf5wvVaRrMxNPiQzBXzBzWqmcH1ilR_n6ztpHz3=w1463-h975-no?authuser=0", "2.jpg", 1462, 975, "27 Oct 2022 | Soligor Wide-Auto 35mm f2.8"),

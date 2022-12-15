@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Layout from '../../components/layout'
 import styles from '../../components/layout.module.css'
 import {gallery, galleriesHeader} from '../../components/gallery-elements'
-import {images} from './macrogallery'
+import {images} from '../../public/photography/macro/list'
 
 export default function FirstPost() {
   return (
