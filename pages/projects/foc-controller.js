@@ -21,7 +21,7 @@ export default function FirstPost() {
       </Link>
       <br></br>
       <p>
-        While I was interning at Starpath Robotics in the Summer of 2022, I worked on an FOC motor controller design, as an in house designed alternative to the O-drive system that we had trouble working with.
+        While I was interning at Starpath Robotics in the Summer of '22, I worked on an FOC motor controller design, as an in house designed alternative to the O-drive system that we had trouble working with.
         The TL;DR is that the theory is very interesting and neat, but putting it into practice is extremely difficult, and I eventually gave up the project.
       </p>
 
