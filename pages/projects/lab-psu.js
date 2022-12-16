@@ -23,7 +23,7 @@ export default function FirstPost() {
         <a href="https://github.com/Alan-JH/LabPSU" target="_blank">Github Repo</a>
       </p>
       <p>
-        One of the projects that I started in Winter of junior year was a lab power supply. I was mainly curious about how lab power supplies can regulate constant current or constant
+        One of the projects that I started in December of '21 of junior year was a lab power supply. I was mainly curious about how lab power supplies can regulate constant current or constant
         voltage, and I was a little bored, so I started designing a schematic for the DC to DC output stage of a lab power supply. I wanted up to 60V and 10A output, and chose the LM5118 
         controller IC, because of an application note that described a CC/CV regulator using the LM5117, but couldn't find any in stock. 
       </p>

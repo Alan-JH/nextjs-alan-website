@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../components/layout'
-import Image from 'next/image'
-import { img_photo_descrip_block } from '../../components/img_blocks'
 import styles from '../../components/layout.module.css'
 
 const title = "Viper Sidestick"
@@ -19,7 +17,13 @@ export default function FirstPost() {
         <a>Back to projects</a>
       </Link>
       <br></br>
-
+      <a href="https://www.thingiverse.com/make:875888" target="_blank">Thingiverse make</a>
+      <p>
+        
+      </p>
+      <p>
+        Last updated 16 Dec 2022
+      </p>
     </Layout>
 
   )

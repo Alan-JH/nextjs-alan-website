@@ -68,7 +68,7 @@ export default function FirstPost() {
       </Link>
       <br></br>
       <p>
-        This was a one week sprint project in December of senior year. CAD files are available <a href="https://www.thingiverse.com/thing:5707027" target="_blank">here</a>&nbsp;if you also happen to have a Sony a6000 and Super Takumar 50mm
+        This was a one week sprint project in December of '22. CAD files are available <a href="https://www.thingiverse.com/thing:5707027" target="_blank">here</a>&nbsp;if you also happen to have a Sony a6000 and Super Takumar 50mm
       </p>
       <p>
         I have been getting my film rolls developed and scanned at a local camera store, for $16 total ($8 for developing C41, and $8 for scanning to a USB drive). On Sunday, Amazon recommended me a 60mm 7artisans 1:1 magnification macro lens
