@@ -25,19 +25,19 @@ export function header_links() {
   
   &nbsp;&nbsp;|&nbsp;&nbsp;
 
-  <Link href="/notes/notes-landing" >
+  <Link href="/notes" >
   <a>Notes</a>
   </Link>
 
   &nbsp;&nbsp;|&nbsp;&nbsp;
 
-  <Link href="/projects/projects-landing" >
+  <Link href="/projects" >
   <a>Projects</a>
   </Link>
 
   &nbsp;&nbsp;|&nbsp;&nbsp;
 
-  <Link href="/photos/photos-landing" >
+  <Link href="/photos" >
   <a>Photos</a>
   </Link>
 

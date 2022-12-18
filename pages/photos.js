@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Layout from '../../components/layout'
-import styles from '../../components/layout.module.css'
+import Layout from '../components/layout'
+import styles from '../components/layout.module.css'
 import "react-image-lightbox/style.css";
-import {galleriesHeader} from '../../components/gallery-elements'
+import {galleriesHeader} from '../components/gallery-elements'
 import Image from 'next/image'
 
 export default function FirstPost() {

@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout from '../../components/layout'
+import Layout from '../components/layout'
 
-import styles from '../../components/layout.module.css'
-import { notes_list_element, notes_list_element_full } from '../../components/landing-elements'
+import styles from '../components/layout.module.css'
+import { notes_list_element, notes_list_element_full } from '../components/landing-elements'
 
 export function full_post_list(){
   return (

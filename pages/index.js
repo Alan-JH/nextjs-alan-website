@@ -4,9 +4,7 @@ import { siteTitle } from "../components/layout.js"
 import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
 import Link from 'next/link'
-import { front_page_post_list } from './notes/notes-landing'
 
-import Post from '../interfaces/post'
 import { getAllPosts } from '../lib/api'
 
 const neg_margin = -12
@@ -81,7 +79,7 @@ export default function Home() {
           height = {icon_size}
           align = "left"
           style={{marginTop: 3}}
-        />&nbsp;&nbsp;Check out my <Link href="/photos/photos-landing" >
+        />&nbsp;&nbsp;Check out my <Link href="/photos" >
         <a>photos</a>
         </Link>
         <br></br>

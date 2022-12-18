@@ -15,7 +15,7 @@ export default function FirstPost() {
         <title>{title}</title>
       </Head>
       <br></br>
-      <Link href="/notes/notes-landing">
+      <Link href="/notes">
         <a>Back to notes</a>
       </Link>
       <br></br>

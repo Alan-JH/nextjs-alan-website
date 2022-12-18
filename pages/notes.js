@@ -1,25 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout from '../../components/layout'
+import Layout from '../components/layout'
 
-import styles from '../../components/layout.module.css'
-import { notes_list_element, notes_list_element_full } from '../../components/landing-elements'
-
-export function front_page_post_list(){
-    return <ul>
-      {notes_list_element("Seeking Epilogue", "notes")}
-      {/* {notes_list_element("Packing for SpaceX", "notes")} */}
-      {notes_list_element("Marino Pasta Recipe", "notes")}
-
-      {/* {notes_list_element("Rapid Prototyping Quick Reference", "notes")} */}
-      <li><Link href="/notes/notes-landing" >
-      <a>more</a>
-      </Link>
-      </li>
-    </ul>
-  }
+import styles from '../components/layout.module.css'
+import { notes_list_element, notes_list_element_full } from '../components/landing-elements'
   
-  export function full_post_list(){
+export function full_post_list(){
     return <div>
       {notes_list_element_full("How I (Mostly) Made This Website", "how-i-made-this-website", "notes")}
       {notes_list_element_full("On To-do lists", "todo-lists", "notes")}

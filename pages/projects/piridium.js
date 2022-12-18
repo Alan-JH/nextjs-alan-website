@@ -16,7 +16,7 @@ export default function FirstPost() {
       </Head>
       <h1>{title}</h1>
       
-      <Link href="/projects/projects-landing">
+      <Link href="/projects">
         <a>Back to projects</a>
       </Link>
       <br></br>
