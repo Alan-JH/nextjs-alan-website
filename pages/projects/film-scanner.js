@@ -198,8 +198,13 @@ export default function FirstPost() {
       <p>
         I'm still working on my Photoshopping skills, but it does seem much more promising than darktable in terms of control.
       </p>
-      <h3>Future improvements</h3>
-      The plywood is a bit of a jank solution, so I may try to use some 2020 aluminum extrusion instead for the base, to give it more rigidity and keep it straighter. I also should design a better way of adjusting the camera's view of the frame up, down, left, and right.
+      <h3>V2 Addendum</h3>
+      I designed a second version with prints that mount to a 300mm length of 2020 extrusion, mostly to keep the whole thing more rigid than plywood. I also designed a better mount
+      that allows the peakdesign plate mount to be adjusted with four M3 screws.
+      <center>
+        <img src="/images/filmscanner/v2nocam.jpg"/>
+        <img src="/images/filmscanner/v2cam.jpg"/>
+      </center>
       <h3>Shoutout</h3>
       <p>
         Thanks to my boi Aarush Sivanesan for helping debug, giving me tips on lighting, and providing feedback on my scans
@@ -209,7 +214,7 @@ export default function FirstPost() {
       </center>
 
       <p>
-        Last updated 12 Dec 2022
+        Last updated 16 Dec 2022
       </p>
     </Layout>
 
