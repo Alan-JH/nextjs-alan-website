@@ -17,31 +17,10 @@ export default function FirstPost() {
       {galleriesHeader()}
 
       <p>
-        I do both film and digital photography, and they both have their pros and cons. I started on digital, and it is good for filler. You can snap away without much cost, 
-        and see the results instantly. It really allows you to experiment, and is much better for action shots and astro.
-        On the other hand, I have been appreciating film more and more, the more I use it. You pay $10-15 for 36 shots (plus another $10 to develop the roll), no take-backs. If you screw one up, 
-        you can't go back and redo it. This forces you to take more time to consider what you are taking a picture of. Every time I consider taking a shot I think about whether I might find 
-        a better shot later, and every time I take a shot I stop for maybe 10-15 seconds to make sure everything is right--the composition is good, the lighting is good, the meter is working, 
-        and the image is level. I press the shutter, and breathe a sigh of relief, satisfaction, and anxiety that it might not come out as well as I hope. This kind of care and this rush of
-        emotions just isn't present with digital. This is also the reason I prefer manual film advance over auto advance. It feels much more satisfying, and I don't need, or want, to shoot 
-        continuous with film anyways.
+        I do both film and digital photography, and they both have their merits, but film is definitely a favorite right now, even though it is ridiculously 
+        expensive. Film just calls for much more attention to each shot and gives you a much more interesting result than digital, and every step of the process 
+        is more deliberate and personal.
       </p>
-      <p>
-        Another difference between film and digital is the artistic touch. Taking photos with artistic vision is possible with both digital and film, but the thought is very different. With
-        digital, you are often aiming for the sharpest and most realistic possible shot, and you rely on post processing or the pure composition to introduce creativity. That's not to say you can't add dreaminess
-        or visual effects at the shot level--I use a Takumar prime lens specifically to get a film-like look--but the general idea with digital is to maximize the sharpness and realism, with expensive
-        digital lenses minimizing distortion, tint, vignetting, abberations, and dreaminess. Meanwhile with film, the color is simply unmatched by unedited digital, and there is a certain 
-        unpredictability that gives photos personality. Imperfections are something that people actually pursue with film. For example, people 
-        seek out film ISOs in the thousands specifically to get that film grain, but if you set your digital camera ISO to those settings, you just get ugly images.
-      </p>
-
-      <p>
-        Overall, digital is great for quantity and experimenting with different views, and for taking images with a sharp aesthetic, but film simply beats it in terms of personality.
-        Nothing is cooler than the feeling of going to the camera store and getting your film scans back of the film photos that you had been taking for the last week, or month. 
-        Nothing is more satisfying than the click and ping of that mechanical shutter, when you take the shot that you scoped out and paused for half a minute to perfect, knowing that you won't be able 
-        to see how it turned out for at least another few days.
-      </p>
-
       
       <h2>Gear</h2>
       <img
@@ -69,6 +48,8 @@ export default function FirstPost() {
       not as dense as I would like it to be. The grip ergonomics are alright, but the buttons are placed poorly, with the four buttons for adjusting shutter and aperture placed in a row, so you
       have to try all of them to see what changes what. The auto-advance isn't too noisy, but it's definitely there. The auto-rewind is convenient, though. You probably won't see me out with
       this camera that often.
+
+      <h4></h4>
 
       <h4>Canon Sure-Shot Zoom Max</h4>
       Another camera my grandfather had. It's a point and shoot that is noisy, cheap, and plastic, but maybe I'll use it somewhere...
