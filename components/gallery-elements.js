@@ -16,6 +16,8 @@ export function galleriesHeader(){
     <a href="/photos/macro" className="button">Macro</a>
     &nbsp;|&nbsp;
     <a href="/photos/film-rolls" className="button">Film Rolls</a>
+    &nbsp;|&nbsp;
+    <a href="/photos/half-frame" className="button">Half Frame Film</a>
     </center></h3>
 }
 
