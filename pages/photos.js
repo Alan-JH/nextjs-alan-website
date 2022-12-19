@@ -3,7 +3,6 @@ import Layout from '../components/layout'
 import styles from '../components/layout.module.css'
 import "react-image-lightbox/style.css";
 import {galleriesHeader} from '../components/gallery-elements'
-import Image from 'next/image'
 
 export default function FirstPost() {
 
@@ -23,120 +22,100 @@ export default function FirstPost() {
       </p>
       
       <h2>Gear</h2>
-      <img
-      src = "/photography/cameras.jpg"
-      layout='fill'
-      objectFit='contain'
-      loading="lazy"
-      />
-      <h3>Bodies</h3>
-      <h4>Sony a6000</h4>
-      This is my main and only digital camera (though I have experimented with my dad's Nikon D3200 before). It is a mirrorless APS-C body camera with a 6000x4000 sensor resolution.
-      I chose this body because it's dense; fairly lightweight but very small. It's very easy to carry around, but the ergonomics could be better, especially with the buttons on the back.
-      Another nice thing about mirrorless is that there are adapters to most other SLR lens mounts without having to use glass elements to correct for focus. This is the camera that you will
-      likely see me walking around with.
-
-      <h4>Pentax ME Super</h4>
-      This was my first film camera, and I absolutely love it. It ended its production run in 1984, and despite being cheap, it is still built like a tank. It has a metal body, and an 
-      extremely satisfying film advance lever. The through the lens metering does the job, and the split focus screen comes in very handy. I use it with an M42 to Pentax K mount adapter 
-      permanently installed, since most of my vintage lenses are in M42. My only gripe is that the manual shutter speed adjustment buttons are placed rather inconveniently, and if I shoot
-      manual (which is rare, anyways), I often have to take my eye off the viewfinder to look for them.
-
-      <h4>Nikon F50D</h4>
-      My grandfather bought this in Tokyo in 1997, and gave it to me along with a Tamron 18-200mm aspherical lens when he heard I was starting to shoot film. It's not an amazing camera; it
-      was designed as an entry level body at a time when plastic was just starting to be used, so it feels pretty cheap, almost like a toy. Despite that, it's got some heft to it, though it's
-      not as dense as I would like it to be. The grip ergonomics are alright, but the buttons are placed poorly, with the four buttons for adjusting shutter and aperture placed in a row, so you
-      have to try all of them to see what changes what. The auto-advance isn't too noisy, but it's definitely there. The auto-rewind is convenient, though. You probably won't see me out with
-      this camera that often.
-
-      <h4></h4>
-
-      <h4>Canon Sure-Shot Zoom Max</h4>
-      Another camera my grandfather had. It's a point and shoot that is noisy, cheap, and plastic, but maybe I'll use it somewhere...
-
-      <h4>Other</h4>
-      My grandfather on the other side of the family had a bunch of film cameras, and they were left to my grandmother when he passed away. These included a Yashica FX-7, Yashica 109, Nikon N65,
-      Toma M-900 point and shoot, and an ancient Agfa Karat from before SLRs were a thing. I haven't had a chance to take test shots with each of these yet, but they seem very cool. The Agfa was last produced
-      in the 1950s and is fully mechanical with no built in light meter. The FX-7 is a typical '70s or '80s SLR, with through the lens metering but no auto mode. The shutter is completely mechanical and there
-      is a bulb function, which is nice. The 109 is another loud '90s era auto advance camera, but I think I prefer it over the F50 because it embodies the '90s aesthetic and doesn't try to look professional.
-      The only issue is that no one uses Yashica mount. I haven't gotten the batteries to get the Nikon N65 working, and I honestly don't really intend to anytime soon. The Toma M900 seems to be broken.
-      <br></br>
-      <br></br>
+      I have quite a collection of equipment (mostly thanks to my grandparents handing down their old stuff) but I haven't had a chance to use most of it, so 
+      I'll only include the notable ones here.
       <img
       src = "/photography/bodies.jpg"
       layout='fill'
       objectFit='contain'
       loading="lazy"
       />
+      <h3>Bodies</h3>
+      <h4>Sony a6000</h4>
+      This is my main and only digital camera (though I have experimented with my dad's Nikon D3200 before). It is a mirrorless APS-C body camera with a 24MP sensor.
+      I chose this body because it's dense; fairly lightweight but very small. It's very easy to carry around, but the ergonomics could be better, especially with the buttons on the back.
+      I use an M42 to E mount adapter to use vintage prime lenses, and I plan to get a Nikon F to E mount to use F mount lenses.
 
-      <h3>Sony E-Mount Lenses</h3>
+      <h4>Pentax ME Super</h4>
+      This is my main film camera, and I absolutely love it. It ended its production run in 1984, and despite costing $40, it is built like a tank. It has a metal body, and an 
+      extremely satisfying film advance lever and shutter sound. The through the lens metering is decent, but does require some thought for backlit or bright subjects. 
+      I use it with an M42 to Pentax K mount adapter permanently installed, since most of my vintage lenses are in M42. 
+
+      <h4>Olympus Pen EE3</h4>
+      My 1960's half frame point and shoot. I bought this with the idea of shooting paired shots, since full frame 35mm scanners will scan two half frame shots per image. Its a very neat little
+      camera, with a completely analog light meter that doesn't use any batteries, and adjusts exposure by changing aperture. 
+      The focus is fixed at 12 feet and it relies on depth of field for keeping objects in focus, which is an elegant solution, but does result in some out of focus subjects especially in low light. 
+      Working within the constraints of this camera has been really fun, and I have been taking it with me pretty much everywhere.
+
+      <h4>Nikon F50D</h4>
+      My grandfather bought this in Tokyo in 1997, and gave it to me along with a Tamron 18-200mm aspherical lens when he heard I was starting to shoot film. 
+      It's pretty bulky and plasticy, so you probably won't see me out with this camera that often. The auto advance and auto rewind are convenient, though.
+
+      <h4>Agfa Karat 36</h4>
+      A 1930's era 35mm camera that my grandfather had, with no electronics whatsoever. The aperture, shutter speed, and focus are all set by rings on the lens, and the shutter needs
+      to be cocked with a lever on the lens. The lens deploys out with an accordion mechanism. Since this was before the 135 standard existed, I had to modify it with a 3D printed
+      takeup spool and film winding handle to be able to use it with modern 35mm film rolls. I don't tend to go out with this that often since its so cumbersome to use, 
+      but it is just really cool for the antique value.
+
+      <h4>Toma M900</h4>
+      One of my grandfather's early 2000's era point and shoots, with a fixed shutter and aperture. It just relies on flash to get a properly exposed shot, which is absolutely chad. 
+      Basically just a shitpost camera, like a polariod with the obnoxious flash. 
+
+      <h4>Yashica FX-7</h4>
+      Another one of my grandfather's cameras, in the classic '70s or '80s style. It's similar to the ME Super, except it has a plastic film advance and film rewind, and no auto mode.
+      The viewfinder is pretty dim, and the exposure meter is difficult to read.
+      The one thing this camera has over the Pentax is the absolutely sexy shutter sound, a click followed by reverb. 
+      
+      <h3>Lenses</h3>
       <h4>Sony E 55-210mm f4.5-6.3 OSS</h4>
       A good telephoto lens that I use for plane spotting and the occasional moon shot. There is some vignetting noticeable especially at higher zooms, but it is solid overall. 
       There is an 18-200mm Tamron lens that costs a little more, and if I had known at the time, I would have gotten that for the wider focal length range.
 
+      <h4>7Artisans 7.5mm f2.8 Fisheye (Sony E Mount)</h4>
+      A very unique fisheye lens with 190 degree field of view. I've had some fun experimenting with it, but I don't use it too often.
+
       <h4>Sony E 16-50mm F3.5-5.6 PZ OSS</h4>
-      The kit lens that came with the A6000. Feels cheap and made of plastic, and I suppose what you'd expect from a kit lens. It has power zoom and autofocus, which makes it the most power hungry lens
-      in my collection. Otherwise, it does get decent shots, but it's pretty unremarkable. 
-      I only use it for astro photography anymore because of the stabilization
+      The kit lens that came with the A6000. Honestly pretty garbage, but I still use it for astro for the stabilization and wide angle range. I plan to replace it with a Nikkor 25-50mm
+      f4 with an adapter.
 
-      <h3>M42 Vintage Lenses</h3>
-      I am a bit of a vintage lens collector now, and I have M42 adapters for both my Pentax ME Super and my Sony A6000, so I can use my vintage lenses on either camera. 
-      The manual focus and aperture ring are very fun to use, and I usually use M42 primes for walk around shots with my A6000. 
-      I found out about M42 from a Simon's Utak video, and it really is a great way to get a cheap selection of focal lengths.
-
-      <h4>Super Takumar 50mm f1.4 (7 element version)</h4>
+      <h4>Super Takumar 50mm f1.4 in M42 (7 element version)</h4>
       My absolute favorite lens, a great fast fifty that is built like a tank, and gets awesome bokeh shots.
       As it is the seven element version, the glass is baked with thorium, which makes it radioactive, but the dose is very low and probably won't kill me, anyways. 
       The radioactive glass gives images a nice golden tint. 
-      Shots can be sharp stop down or have a nice soft effect wide open. Wide open in broad daylight
-      also exaggerates highlights, which is a cool effect to play around with. This lens is basically the embodiment of film photography in a lens, with the slight unpredictability of the shots, and the
+      Shots can be sharp stop down or have a nice soft effect wide open. 
+      This lens is basically the embodiment of film photography in a lens, with the slight unpredictability of the shots, and the
       interesting effects that you get. If you take landscape wide-open for example, you sometimes get sharp images, and other times get a dreamy effect, and it's very hard to tell which will happen.
       Highly recommend grabbing one, or an SMC Takumar, if your camera can support an M42 adapter.
 
       <h4>Super Takumar 135mm f3.5</h4>
       Similarly built to the 50mm f1.4, but a zoom prime lens. It's a solid, sharp lens, without any tint or strange effects. I have used it for interesting walkaround photography, but I mainly use it whenever
-      I need a lightweight zoom on my Pentax.
+      I need a lightweight telephoto-ish on my Pentax.
 
       <h4>Pro Automatic 90-230mm f4.5</h4>
-      An absolute monster of a telephoto lens, weighing in at 900 grams, found on the bargain shelf of the camera store with no price tag. 
+      An absolute monster of a telephoto zoom lens, weighing in at 900 grams, found on the bargain shelf of the camera store with no price tag. 
       I got this one mainly as a joke, but it is actually a great telephoto considering the $15 I spent on it, and I have used it a couple times on my Pentax. 
-      It is technically faster than my E mount telephoto, but I don't think that is worth the weight expense...
-      <center>
-        <img
-        src="/photography/telephoto.jpg"
-        loading="lazy"
-        />
-        If I'm not careful, I might snap my E mount right off
-      </center>
 
-      <h3>Nikon F-Mount Lenses</h3>
-      Courtesy of my grandparents, I now have a couple Nikon F-mount lenses
       <h4>Tamron AF28-200mm f3.8-5.6 LD Aspherical IF Super</h4>
-      The most convenient focal length range that I currently own. There is some noticeable distortion at the wider and narrower zoom settings, and the lens itself feels cheap (like the F50), and almost 
-      like a toy, but I do appreciate the range and the compact form factor of the lens considering the focal length.
-
-      <h4>Nikon AF Nikkor 28-80mm f3.5-5.6G</h4>
-      Came with the N65, but I haven't tried it yet.
+      Given to me with the F50D by my grandfather.
+      The most convenient focal length range that I currently own. There is some noticeable distortion at the wider and narrower zoom settings, and the lens itself feels cheap, 
+      but I do appreciate the range and the compact form factor of the lens considering the focal length.
 
       <h3>Misc. Gear</h3>
-      <h4>Darktable</h4>
-      When I do post processing, I use Darktable, an open source Linux compatible light table and dark room application. It handles exposure, color correction, and even astro denoising well enough for me.
-      I'm honestly pretty lazy and post most of my digital photos unedited, but if there is a blatantly incorrectly exposed or noisy photo, I will edit it. I have also done a couple more artistic edits
-      by playing around with color correction.
+      <h4>Editing Software</h4>
+      I started out editing in darktable, which is a linux compatible editing software with a lot of built in functions. Lately, I have been using Photoshop more and more, because I'm
+      a sucker for the UI and layer system. I also use Photoshop for film scanning
 
       <h4>Peak Design Capture</h4>
       I have a Peak Design clip on my backpack, and capture plates for the bodies that I use the most often. It's an awesome system, designed and manufactured thoughtfully. Being able to clip a camera to my
       backpack strap is a lot more convenient that having to use a shoulder strap while carrying my backpack, and there's the added bonus of being able to show off my camera front and center :) Another neat thing
       with the capture plates is that you can clip a shoulder strap to the plate (which mounts to the bottom of the camera) instead of the anchors on the front or sides towards the top of the camera, and this 
-      allows the camera to hang with the lens down instead of out to the side, making it much more conveneint with long lenses. A word of caution though, make sure your backpack is built well enough to carry 
-      your camera especially when you take it off, because the weight of the camera on my backpack's strap is starting to wear down the seams.
+      allows the camera to hang with the lens down instead of out to the side, making it much more conveneint with long lenses.
 
       <h4>Lens Caps</h4>
       I 3D print my own rear lens caps and camera body caps, so I don't need to buy them
 
-      <h3>The Dream Setup</h3>
-      I think right now my dream camera is a Nikon F3 (unsure of lens), with a wood grip and leather strap. The F3 is a beautiful camera and built like a tank (much more so than the ME Super), with manual film advance.
-      I also want to try half frame film, and I have an Olympus Pen EE3 on the way to try it out. 
+      <h3>Pipe Dream</h3>
+      Right now the dream camera is the Nikon F3, but I would also love to experiment with 120 format
 
     </Layout>
 
