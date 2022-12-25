@@ -10,6 +10,7 @@ export function full_post_list(){
       {notes_list_element_full("How I (Mostly) Made This Website", "how-i-made-this-website", "notes")}
       {notes_list_element_full("On To-do lists", "todo-lists", "notes")}
       {notes_list_element_full("Nostalgic Part Numbers", "part-numbers", "notes")}
+      {notes_list_element_full("Shooting Checklist", "shooting-checklist", "notes")}
     </div>
   }
   
