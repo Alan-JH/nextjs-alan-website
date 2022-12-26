@@ -28,7 +28,7 @@ export default function FirstPost() {
         controller IC, because of an application note that described a CC/CV regulator using the LM5117, but couldn't find any in stock. 
       </p>
       <center>
-        <img src="/images/labpsu/final-sch.png"/>
+        <img src="/images/labpsu/final-sch.png" loading="lazy"/>
         The final schematic
       </center>
       <h2>The Theory</h2>
@@ -45,7 +45,7 @@ export default function FirstPost() {
         output is lower than the setpoint, the opposite occurs.
       </p>
       <center>
-        <img src="/images/labpsu/buck-feedback.png"/>
+        <img src="/images/labpsu/buck-feedback.png" loading="lazy"/>
         Image credit: Microchip
       </center>
       <p>
@@ -67,7 +67,7 @@ export default function FirstPost() {
         must be accurate in the millivolt range. 
       </p>
       <center>
-        <img src="/images/labpsu/cccv1.png"/>
+        <img src="/images/labpsu/cccv1.png" loading="lazy"/>
         Image credit: Texas Instruments
       </center>
       <p>
@@ -76,7 +76,7 @@ export default function FirstPost() {
         with a 431 voltage reference. 
       </p>
       <center>
-        <img src="/images/labpsu/cccv2.png"/>
+        <img src="/images/labpsu/cccv2.png" loading="lazy"/>
         Image credit: Texas Instruments
       </center>
       <h2>My Implementation</h2>
@@ -103,7 +103,7 @@ export default function FirstPost() {
         only needs to happen every time the set points change.
       </p>
       <center>
-        <img src="/images/labpsu/code.png"/>
+        <img src="/images/labpsu/code.png" loading="lazy"/>
         The relevant part of the microcontroller code, using an ATTiny1624
       </center>
       <h2>Assembly, Testing</h2>
@@ -113,14 +113,14 @@ export default function FirstPost() {
         which would have made the board larger and more expensive, and would have added more points of failure.
       </p>
       <center>
-        <img src="/images/labpsu/layout.png"/>
+        <img src="/images/labpsu/layout.png" loading="lazy"/>
         Final Layout
       </center>
       <p>
         This was my first time doing solder reflow with a hot air station, and I spent six hours pasting the board, placing components, and soldering. 
       </p>
       <center>
-        <img src="/images/labpsu/assembled.jpg"/>
+        <img src="/images/labpsu/assembled.jpg" loading="lazy"/>
         The completed assembled board
       </center>
       <p>

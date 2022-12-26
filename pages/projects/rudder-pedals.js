@@ -33,19 +33,19 @@ export default function FirstPost() {
         because I was using a very jank setup with a hand clamp instead of a vise.
       </p>
       <center>
-        <img src="/images/pedals/springs.jpg"/>
+        <img src="/images/pedals/springs.jpg" loading="lazy"/>
       </center>
       <p>
         I was also using thicker wire and making thicker solder joints for the hall sensors than the designer did, so I had to do some less-than-ideal heatshrinking.
       </p>
       <center>
-        <img src="/images/pedals/sensormount1.jpg"/>
+        <img src="/images/pedals/sensormount1.jpg" loading="lazy"/>
       </center>
       <p>
         The build went smoothly and I used the finished pedals for several months before deciding to edit the design.
       </p>
       <center>
-        <img src="/images/pedals/v1complete.jpg"/>
+        <img src="/images/pedals/v1complete.jpg" loading="lazy"/>
       </center>
       <h3>V2: F-16 Style Pedals</h3>
       <p>
@@ -54,16 +54,16 @@ export default function FirstPost() {
         My sensor mounting solution included strain relief for the hall sensor and a magnet mount on the pedals.
       </p>
       <center>
-        <img src="/images/pedals/magnetmount.jpg"/>
-        <img src="/images/pedals/sensorassemv2.jpg"/>
+        <img src="/images/pedals/magnetmount.jpg" loading="lazy"/>
+        <img src="/images/pedals/sensorassemv2.jpg" loading="lazy"/>
       </center>
       <p>
         The conversion took a few days, and I had to cut down and drill new holes into the 2020 extrusion crossbars. This time, I could cut on my own because I had a hacksaw from the throttle project.
       </p>
       <center>
-        <img src="/images/pedals/v2conversion.jpg"/>
+        <img src="/images/pedals/v2conversion.jpg" loading="lazy"/>
         Conversion in progress
-        <img src="/images/pedals/v2complete.jpg"/>
+        <img src="/images/pedals/v2complete.jpg" loading="lazy"/>
         Complete
       </center>
       <h3>V3: Asymmetrical Cam Design</h3>
@@ -72,7 +72,7 @@ export default function FirstPost() {
         symmetrical cam for centering with two linearly actuated RC shocks.
       </p>
       <center>
-        <img src="/images/pedals/dirtyslider.jpg"/>
+        <img src="/images/pedals/dirtyslider.jpg" loading="lazy"/>
         The absolutely disgusting state of the slider print after 8 months of use
       </center>
       <p>
@@ -82,7 +82,7 @@ export default function FirstPost() {
         trace each cam position at each deflection angle in each direction to form a guide for a spline in Fusion 360. It took a couple hours, but it worked.
       </p>
       <center>
-        <img src="/images/pedals/v3complete.jpg"/>
+        <img src="/images/pedals/v3complete.jpg" loading="lazy"/>
         V3 assembled
       </center>
       <center>

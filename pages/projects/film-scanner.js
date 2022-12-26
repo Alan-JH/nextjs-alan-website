@@ -96,16 +96,16 @@ export default function FirstPost() {
         photos with it with my Sony and my Pentax. 
       </p>
       <center>
-        <img src="/images/filmscanner/pentax.jpg"/>
+        <img src="/images/filmscanner/pentax.jpg" loading="lazy"/>
         Mounted on the pentax
-        <img src="/images/filmscanner/sample.JPG"/>
+        <img src="/images/filmscanner/sample.JPG" loading="lazy"/>
         Sample image with my Sony a6000
       </center>
       <p>
         I also tried a couple film scans using my desk lamp as a backlight. I used darktable's built in negadoctor function, which handles much of the color inversion process on its own, including subtracting the color of the film base, and dealing with dynamic range.
       </p>
       <center>
-        <img src="/images/filmscanner/lamp.jpg"/>
+        <img src="/images/filmscanner/lamp.jpg" loading="lazy"/>
       </center>
       {gallery(lampsample)}
       <p>
@@ -120,8 +120,8 @@ export default function FirstPost() {
         but there was a decent chance it would be off, especially considering the millimeter-level depth of field that the macro extensions yielded.
       </p>
       <center>
-        <img src="/images/filmscanner/hood1.jpg"/>
-        <img src="/images/filmscanner/hood2.jpg"/>
+        <img src="/images/filmscanner/hood1.jpg" loading="lazy"/>
+        <img src="/images/filmscanner/hood2.jpg" loading="lazy"/>
         Remember that focus distance is measured from the sensor, not the lens
       </center>
       <p>
@@ -144,7 +144,7 @@ export default function FirstPost() {
         as the film stock color, so the Tak tint shouldn't matter.
       </p>
       <center>
-        <img src="/images/filmscanner/filmholder.jpg"/>
+        <img src="/images/filmscanner/filmholder.jpg" loading="lazy"/>
       </center>
       {gallery(thursday)}
       <h3>Friday</h3>
@@ -155,7 +155,7 @@ export default function FirstPost() {
         which was heavily cropped because I didn't have macro extensions for E mount, just to test whether the Tak tint was actually causing color issues. I applied the same negadoctor and white balance processes, and the image came out almost identical, so the Tak is fine. 
       </p>
       <center>
-        <img src="/images/filmscanner/backlight.jpg"/>
+        <img src="/images/filmscanner/backlight.jpg" loading="lazy"/>
       </center>
       {gallery(newbacklight)}
       <h3>Saturday</h3>
@@ -202,15 +202,15 @@ export default function FirstPost() {
       I designed a second version with prints that mount to a 300mm length of 2020 extrusion, mostly to keep the whole thing more rigid than plywood. I also designed a better mount
       that allows the peakdesign plate mount to be adjusted with four M3 screws.
       <center>
-        <img src="/images/filmscanner/v2nocam.jpg"/>
-        <img src="/images/filmscanner/v2cam.jpg"/>
+        <img src="/images/filmscanner/v2nocam.jpg" loading="lazy"/>
+        <img src="/images/filmscanner/v2cam.jpg" loading="lazy"/>
       </center>
       <h3>Shoutout</h3>
       <p>
         Thanks to my boi Aarush Sivanesan for helping debug, giving me tips on lighting, and providing feedback on my scans
       </p>
       <center>
-        <img src="/images/filmscanner/shoutout.png"/>
+        <img src="/images/filmscanner/shoutout.png" loading="lazy"/>
       </center>
 
       <p>

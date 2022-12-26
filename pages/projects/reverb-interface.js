@@ -28,7 +28,7 @@ export default function FirstPost() {
         After working with it and getting familiar with the design, I got to work on designing and fabricating a flight ready version.
       </p>
       <center>
-        <img src="/images/reverb/wiring.jpg"/>
+        <img src="/images/reverb/wiring.jpg" loading="lazy"/>
         The Iridium ribbon cable pinout was wrong, so the previous team used male to female jumper wires to connect it
       </center>
       <p>
@@ -56,10 +56,10 @@ export default function FirstPost() {
         Finally, I put test points and LEDs to indicate which PDMs were switched on, and give places to measure bus voltages.
       </p>
       <center>
-        <img src="/images/reverb/interfaceusbv1.png"/>
-        <img src="/images/reverb/interfacespiv1.png"/>
+        <img src="/images/reverb/interfaceusbv1.png" loading="lazy"/>
+        <img src="/images/reverb/interfacespiv1.png" loading="lazy"/>
         The schematics for the USB and SPI branches
-        <img src="/images/reverb/interfacev1assem.jpg"/>
+        <img src="/images/reverb/interfacev1assem.jpg" loading="lazy"/>
         Assembled v1 USB version
       </center>
       <p>
@@ -77,8 +77,8 @@ export default function FirstPost() {
       </p>
 
       <center>
-        <img src="/images/reverb/interfacev2paste.jpg"/>
-        <img src="/images/reverb/interfacev2assem.jpg"/>
+        <img src="/images/reverb/interfacev2paste.jpg" loading="lazy"/>
+        <img src="/images/reverb/interfacev2assem.jpg" loading="lazy"/>
         Pasted and assembled v2 USB and I2C versions
       </center>
 
@@ -90,7 +90,7 @@ export default function FirstPost() {
       </p>
 
       <center>
-        <img src="/images/reverb/spaceforce.jpg"/>
+        <img src="/images/reverb/spaceforce.jpg" loading="lazy"/>
         Me explaining the interface board and flatsat setup to Space Force Gen. Raymond and Col. Hague
       </center>
       
@@ -106,8 +106,8 @@ export default function FirstPost() {
       </p>
 
       <center>
-        <img src="/images/reverb/stacked1.jpg"/>
-        <img src="/images/reverb/stacked2.jpg"/>
+        <img src="/images/reverb/stacked1.jpg" loading="lazy"/>
+        <img src="/images/reverb/stacked2.jpg" loading="lazy"/>
         The interface board on the stack during final assembly
       </center>
 

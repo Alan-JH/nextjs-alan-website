@@ -37,7 +37,7 @@ export default function FirstPost() {
         The flight computer, our Raspberry Pi, that communicates with the modem by UART is considered the Field Application (FA).
       </p>
       <center>
-        <img layout="fill" src="/images/reverb/iridium_overview.png"/>
+        <img layout="fill" src="/images/reverb/iridium_overview.png" loading="lazy"/>
       </center>
       <center>Image credit: Cubic-i Ltd.</center>
       <p>
@@ -112,11 +112,11 @@ export default function FirstPost() {
       The full Iridium driver is available <a href="https://github.com/TJREVERB/pfs-rewrite/blob/flight-dev/Drivers/iridium.py" target="_blank">here</a>.
       <h3>Command Decode Implementation</h3>
       <center>
-        <img layout="fill" src="/images/reverb/decode.png"/>
+        <img layout="fill" src="/images/reverb/decode.png" loading="lazy"/>
       </center>
       <h3>Return Data Encode Implementation</h3>
       <center>
-        <img layout="fill" src="/images/reverb/encode.png"/>
+        <img layout="fill" src="/images/reverb/encode.png" loading="lazy"/>
       </center>
 
       <br></br>

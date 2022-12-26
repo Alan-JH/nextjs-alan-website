@@ -37,9 +37,9 @@ export default function FirstPost() {
         but the EPS protections would ensure that the battery would not discharge past the point of permanent damage, so we could always just charge the battery and retry again.
       </p>
       <center>
-        <img src="/images/reverb/test-setup.jpg"/>
+        <img src="/images/reverb/test-setup.jpg" loading="lazy"/>
         Testing my setup with a spare EPS and Battery (that we weren't supposed to have haha)
-        <img src="/images/reverb/flatsat.jpg"/>
+        <img src="/images/reverb/flatsat.jpg" loading="lazy"/>
         The flatsat around the time I ran the discharge test. Note the hotplates on the left, EPS + Battery stack inside the green box, MOSFETs on a breadboard behind the green box. Load is not powered.
       </center>
       <h2>The Code</h2>
@@ -52,9 +52,9 @@ export default function FirstPost() {
         actual command connection to the EPS failed, which would make it impossible to switch load off and charging back on, but the worst that would happen would be having to charge the battery back up again manually).
       </p>
       <center>
-        <img src="/images/reverb/batt-test-output.jpg"/>
+        <img src="/images/reverb/batt-test-output.jpg" loading="lazy"/>
         The output after three of the five cycles
-        <img src="/images/reverb/batt-report.png"/>
+        <img src="/images/reverb/batt-report.png" loading="lazy"/>
         Jubilation
       </center>
       Last updated 5 December 2022

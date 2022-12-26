@@ -36,7 +36,7 @@ export default function FirstPost() {
         A typical reflow profile for lead free solder is shown below. There is a slow ramp at the start, and a sort of pause around 150C, which serves activate flux and boil off any water without tombstoning, followed by a fast spike up to 250C to actually melt the solder.
         The ramp up and cooldown of the spike need to be fast, and the time at peak temperature needs to be short to prevent damage to the electrical components.
       </p>
-      <img src="/images/reflow/profile.webp"/>
+      <img src="/images/reflow/profile.webp" loading="lazy"/>
 
       <h2>My Project</h2>
       <p>
@@ -45,7 +45,7 @@ export default function FirstPost() {
         I had to go through two design iterations of the PCB because the 1oz copper JLCPCB used did not match the resistivity of the 1oz copper of the calculator I used, and resulted in a 7 ohm trace rather than a 5 ohm.
       </p>
       <center>
-        <img src="/images/reflow/heater.png"/>
+        <img src="/images/reflow/heater.png" loading="lazy"/>
         The final version of the heating element PCB
       </center>
       <p>
@@ -54,8 +54,8 @@ export default function FirstPost() {
         processors for a project, and I really became addicted to ATTiny 0, 1, and 2 series microcontrollers for small embedded projects since then. An ATTiny 1624, for example, has similar specifications to an ATMega328 but with much less IO, and costing only 80 cents. 
       </p>
       <center>
-        <img src="/images/reflow/controlsch.png"/>
-        <img src="/images/reflow/controlbrd.png"/>
+        <img src="/images/reflow/controlsch.png" loading="lazy"/>
+        <img src="/images/reflow/controlbrd.png" loading="lazy"/>
         The schematic and board layout of the control board
       </center>
       <h2>Results</h2>
@@ -72,7 +72,7 @@ export default function FirstPost() {
         amplifiers and learned that much of the time breakout boards are adviseable, especially in prototypes.
       </p>
       <center>
-        <img src="/images/reflow/final.jpg"/>
+        <img src="/images/reflow/final.jpg" loading="lazy"/>
       </center>
       Last updated 3 December 2022
     </Layout>

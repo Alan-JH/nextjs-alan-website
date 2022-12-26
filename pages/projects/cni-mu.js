@@ -28,7 +28,7 @@ export default function FirstPost() {
         and I needed all 23 inputs for the keyboard matrixing and TFT driver interface. 
       </p>
       <center>
-        <img src="/images/cni-mu/firstpcb.jpg"/>
+        <img src="/images/cni-mu/firstpcb.jpg" loading="lazy"/>
         The first PCB prototype
       </center>
       <p>
@@ -37,28 +37,28 @@ export default function FirstPost() {
         To test my button matrix before committing to a PCB change, I had to do some very jank wiring
       </p>
       <center>
-        <img src="/images/cni-mu/jankwiring.jpg"/>
+        <img src="/images/cni-mu/jankwiring.jpg" loading="lazy"/>
       </center>
       <p>
         I also had to cut a wider slot with a hacksaw for the TFT display ribbon cable to pass through and plug into the driver breakout board underneath the main PCB
       </p>
       <center>
-        <img src="/images/cni-mu/slotcut.jpg"/>
+        <img src="/images/cni-mu/slotcut.jpg" loading="lazy"/>
       </center>
       <p>
         I 3D printed the case, which mounted with M4 and M3 screws and standoffs, and was fairly low profile, sandwiching the PCB on both sides. I was using Omron B3F tact switches,
         and I 3D printed keycaps to go over them. It took a couple tries to get the sliding tolerance right.
       </p>
       <center>
-        <img src="/images/cni-mu/blank.jpg"/>
+        <img src="/images/cni-mu/blank.jpg" loading="lazy"/>
       </center>
       <p>
         Matt asked me to put lettering on the keys, so I spent most of winter break sanding smooth and injecting white paint into 3D printed keycaps with lettering. In hindsight
         I really should've just gotten laser engraved caps from a shop like SendCutSend, but I didn't want to add more to the budget.
       </p>
       <center>
-        <img src="/images/cni-mu/paintedkeys.jpg"/>
-        <img src="/images/cni-mu/plugged.jpg"/>
+        <img src="/images/cni-mu/paintedkeys.jpg" loading="lazy"/>
+        <img src="/images/cni-mu/plugged.jpg" loading="lazy"/>
         The final product
       </center>
       <p>

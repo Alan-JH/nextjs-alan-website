@@ -25,7 +25,7 @@ export default function FirstPost() {
         because I can't design anything remotely ergonomic. I had to print an adapter to make the two work together, and built all the electronics myself.
       </p>
       <center>
-        <img src="/images/viperstick/gimbalparts.jpg"/>
+        <img src="/images/viperstick/gimbalparts.jpg" loading="lazy"/>
         Gimbal parts
       </center>
       <h3>Grip</h3>
@@ -33,15 +33,15 @@ export default function FirstPost() {
         I first printed the grip in PLA and spent a few hours sanding it smooth, by going from 120 grit to 2000 grit sandpaper, but I stripped one of the tapped holes inside and had to reprint. 
       </p>
       <center>
-        <img src="/images/viperstick/grip1.jpg"/>
+        <img src="/images/viperstick/grip1.jpg" loading="lazy"/>
       </center>
       <p>
         For the reprint, I decided to use gap filler primer along with sanding to give a smoother finish. Another member of the HOTAS discord recommended that I use automotive epoxy black paint
         for its durability.
       </p>
       <center>
-        <img src="/images/viperstick/primed.jpg"/>
-        <img src="/images/viperstick/painted.jpg"/>
+        <img src="/images/viperstick/primed.jpg" loading="lazy"/>
+        <img src="/images/viperstick/painted.jpg" loading="lazy"/>
       </center>
       <p>
         The switches and hats all use 6mm tact switches in 3D printed enclosures, and the dual stage trigger uses two switches and a pen spring.
@@ -55,11 +55,11 @@ export default function FirstPost() {
         Hall sensors would not work in this configuration, as they are best used when sandwiched between magnets, not placed over them.
       </p>
       <center>
-        <img src="/images/viperstick/baremount.jpg"/>
+        <img src="/images/viperstick/baremount.jpg" loading="lazy"/>
         Testing the sensor mount
-        <img src="/images/viperstick/coveredmount.jpg"/>
+        <img src="/images/viperstick/coveredmount.jpg" loading="lazy"/>
         With cover and strain relief
-        <img src="/images/viperstick/strainrelief.jpg"/>
+        <img src="/images/viperstick/strainrelief.jpg" loading="lazy"/>
         With additional hot glue for strain relief
       </center>
       <h3>Grip electronics</h3>
@@ -68,7 +68,7 @@ export default function FirstPost() {
         because the 26 gauge wire I had was too thick to stuff inside the grip.
       </p>
       <center>
-        <img src="/images/viperstick/insides.jpg"/>
+        <img src="/images/viperstick/insides.jpg" loading="lazy"/>
       </center>
       <h3>Base electronics</h3>
       <p>
@@ -76,16 +76,16 @@ export default function FirstPost() {
         I put these on perfboard and used JST-XH connectors for the sensors and grip.
       </p>
       <center>
-        <img src="/images/viperstick/adcboard.jpg"/>
+        <img src="/images/viperstick/adcboard.jpg" loading="lazy"/>
       </center>
       <h3>Final assembly</h3>
       <p>
         The final product
       </p>
       <center>
-        <img src="/images/viperstick/finished1.jpg"/>
-        <img src="/images/viperstick/finished2.jpg"/>
-        <img src="/images/viperstick/finished3.jpg"/>
+        <img src="/images/viperstick/finished1.jpg" loading="lazy"/>
+        <img src="/images/viperstick/finished2.jpg" loading="lazy"/>
+        <img src="/images/viperstick/finished3.jpg" loading="lazy"/>
       </center>
       <p>
         Last updated 16 Dec 2022

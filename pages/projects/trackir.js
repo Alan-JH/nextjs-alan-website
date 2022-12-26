@@ -33,8 +33,8 @@ export default function FirstPost() {
         The camera was a PS3 Eyecam with a cut up floppy disk as a visible light filter running opentrack, an open source software meant for plotting the IR LED positions to joystick axes.
       </p>
       <center>
-        <img src="/images/trackir/breadboard.jpg"/>
-        <img src="/images/trackir/headset.jpg"/>
+        <img src="/images/trackir/breadboard.jpg" loading="lazy"/>
+        <img src="/images/trackir/headset.jpg" loading="lazy"/>
       </center>
       <p>
         This setup was pretty jank, with lots of electrical tape, and the batteries were pretty heavy. So after I got a 3D printer, I designed a second version of the clip, with a 3D printed housing
@@ -45,9 +45,9 @@ export default function FirstPost() {
         taped plate with two M8 washers inside.
       </p>
       <center>
-        <img src="/images/trackir/insides.jpg"/>
-        <img src="/images/trackir/attached.jpg"/>
-        <img src="/images/trackir/detached.jpg"/>
+        <img src="/images/trackir/insides.jpg" loading="lazy"/>
+        <img src="/images/trackir/attached.jpg" loading="lazy"/>
+        <img src="/images/trackir/detached.jpg" loading="lazy"/>
       </center>
 
       <p>

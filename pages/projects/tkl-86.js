@@ -30,7 +30,7 @@ export default function FirstPost() {
         This was my second time drag soldering, the first time being the <a href="ufc" target="_blank">F-18C UFC</a>. 
       </p>
       <center>
-        <img src="/images/keyboard/soldering.jpg"/>
+        <img src="/images/keyboard/soldering.jpg" loading="lazy"/>
       </center>
       <p>
         I designed up a 3D printed case, and went through several iterations trying to get the tolerance right. I ended up doing a lot of snipping with pliers to get the
@@ -38,7 +38,7 @@ export default function FirstPost() {
         I generated a firmware in QMK and flashed it. 
       </p>
       <center>
-        <img src="/images/keyboard/final.jpg"/>
+        <img src="/images/keyboard/final.jpg" loading="lazy"/>
         The finished product
       </center>
       <p>
