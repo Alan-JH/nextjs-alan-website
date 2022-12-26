@@ -19,7 +19,6 @@ export function full_post_list(){
       {notes_list_element_full("C-130 CNI-MU", "cni-mu", "projects")}
       {notes_list_element_full("PCB Reflow Hotplate", "pcb-heater", "projects")}
       {notes_list_element_full("TKL-86 Keyboard", "tkl-86", "projects")}
-      {notes_list_element_full("F/A-18C UFC", "ufc", "projects")}
       {notes_list_element_full("Flight Sim Throttle v2", "throttle-v2", "projects")}
       {notes_list_element_full("Viper Sidestick", "viper-stick", "projects")}
       {notes_list_element_full("Flight Sim Rudder Pedals", "rudder-pedals", "projects")}
