@@ -37,6 +37,9 @@ export function gallery(images){
 
     return (
         <div>
+            <center>
+                <i>(Click to Enlarge)</i>
+            </center>
         <Gallery
             images={images}
             onClick={handleClick}
