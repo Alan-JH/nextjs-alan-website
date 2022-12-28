@@ -11,6 +11,7 @@ export function full_post_list(){
       {notes_list_element_full("On To-do lists", "todo-lists", "notes")}
       {notes_list_element_full("Nostalgic Part Numbers", "part-numbers", "notes")}
       {notes_list_element_full("Shooting Checklist", "shooting-checklist", "notes")}
+      {notes_list_element_full("Lens Comparison", "lens-comparison", "notes")}
     </div>
   }
   
@@ -21,7 +22,7 @@ export function full_post_list(){
                 <title>Notes</title>
             </Head>
 
-            <h2>A place for random thoughts and posts that don't fall elsewhere</h2>
+            <h2>A place for random thoughts and posts</h2>
 
             {full_post_list()}
 
