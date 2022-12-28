@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../components/layout'
-import Image from 'next/image'
-import { img_photo_descrip_block } from '../../components/img_blocks'
 import { centered_img_block } from '../../components/centered_img_blocks'
 import styles from '../../components/layout.module.css'
+import { notes_list_element_full } from '../../components/landing-elements'
 
 const title = "Radio Encoding Protocol for TJREVERB"
 
@@ -125,7 +124,12 @@ export default function FirstPost() {
       <p>
         Last updated 25 Nov 2022
       </p>
-
+      <h2>You May Also Like</h2>
+      <div>
+        {notes_list_element_full("Piridium CubeSat Bus", "piridium", "projects")}
+        {notes_list_element_full("TJREVERB Battery Capacity Test Code", "reverb-batt-tester", "projects")}
+        {notes_list_element_full("TJREVERB Interface Board", "reverb-interface", "projects")}
+      </div>
     </Layout>
 
   )

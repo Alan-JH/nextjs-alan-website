@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../components/layout'
-import Image from 'next/image'
-import { img_photo_descrip_block } from '../../components/img_blocks'
 import styles from '../../components/layout.module.css'
+import { notes_list_element_full } from '../../components/landing-elements'
 
 const title = "TKL-86 Keyboard"
 
@@ -44,8 +43,13 @@ export default function FirstPost() {
       <p>
         I still daily drive this keyboard, and it continues to annoy my parents and anyone else who happens to be in the same room while I'm typing.
       </p>
-      Last updated 5 December 2022
+      <p>
+        Last updated 5 December 2022
+      </p>
+      <h2>You May Also Like</h2>
+      <div>
+        {notes_list_element_full("C-130 CNI-MU", "cni-mu", "projects")}
+      </div>
     </Layout>
-
   )
 }

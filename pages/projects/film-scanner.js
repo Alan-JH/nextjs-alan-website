@@ -4,6 +4,7 @@ import Layout from '../../components/layout'
 import Image from 'next/image'
 import styles from '../../components/layout.module.css'
 import {gallery, galleriesHeader, image} from '../../components/gallery-elements'
+import { notes_list_element_full } from '../../components/landing-elements'
 
 const title = "35mm Film Scanner"
 
@@ -216,6 +217,10 @@ export default function FirstPost() {
       <p>
         Last updated 16 Dec 2022
       </p>
+      <h2>You May Also Like</h2>
+      <div>
+        {notes_list_element_full("My Film Photos", "film-rolls", "photos")}
+      </div>
     </Layout>
 
   )
