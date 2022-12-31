@@ -10,7 +10,6 @@ export function full_post_list(){
     <div>
       {notes_list_element_full("35mm Film Scanner", "film-scanner", "projects")}
       {notes_list_element_full("Piridium CubeSat Bus", "piridium", "projects")}
-      {notes_list_element_full("TJ UAV Camera Gimbal", "uav-gimbal", "projects")}
       {notes_list_element_full("FOC Motor Controller", "foc-controller", "projects")} 
       {notes_list_element_full("Lab Power Supply", "lab-psu", "projects")}
       {notes_list_element_full("TJREVERB Battery Capacity Test Code", "reverb-batt-tester", "projects")}
