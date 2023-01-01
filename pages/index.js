@@ -19,6 +19,9 @@ export default function Home() {
     <Layout home layout_type={styles.containerHome}>
       <Head>
         <title>{siteTitle}</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"/>
         <meta name="google-site-verification" content="3G5QUBokac5BO13aqWAwOeotGapxFTlmjd5r6hyCyic" />
       </Head>
 
@@ -83,9 +86,11 @@ export default function Home() {
         <a>photos</a>
         </Link>
         <br></br>
-        🎵&nbsp;&nbsp;&nbsp;Probably listening to flipturn, RMCM, Friday Pilot's Club, or IDKHOW
+        🎵&nbsp;&nbsp;&nbsp;Probably listening to flipturn, RMCM, or IDKHOW
         <br></br>
         🎹&nbsp;&nbsp;&nbsp;Play the piano
+        <br></br>
+        ⛷&nbsp;&nbsp;&nbsp;&nbsp;Seeking out moguls
       </section>
 
     </Layout>
