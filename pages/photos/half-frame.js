@@ -8,7 +8,7 @@ export default function FirstPost() {
   return (
     <Layout layout_type={styles.container} bgimage = "/images/headers/photographyheader.jpg" pagetitle = "Film Photos" headertextcolor = "white">
       <Head>
-        <title>Alan's Film Photos</title>
+        <title>Alan's Half Frame Photos</title>
       </Head>
       {galleriesHeader()}
 

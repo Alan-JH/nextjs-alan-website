@@ -54,7 +54,7 @@ export default function FirstPost() {
       <h4>Agfa Karat 36</h4>
       A 1930's era 35mm camera that my grandfather had, with no electronics whatsoever. The aperture, shutter speed, and focus are all set by rings on the lens, and the shutter needs
       to be cocked with a lever on the lens. The lens deploys out with an accordion mechanism. Since this was before the 135 standard existed, I had to modify it with a 3D printed
-      takeup spool and film winding handle to be able to use it with modern 35mm film rolls. I don't tend to go out with this that often since its so cumbersome to use, 
+      takeup spool and film winding handle to be able to use it with 135 standard film cartridges. I don't tend to go out with this that often since its so cumbersome to use, 
       but it is just really cool for the antique value.
 
       <h4>Toma M900</h4>

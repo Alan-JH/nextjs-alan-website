@@ -18,6 +18,8 @@ export function galleriesHeader(){
     <a href="/photos/film-rolls" className="button">Film Rolls</a>
     &nbsp;|&nbsp;
     <a href="/photos/half-frame" className="button">Half Frame Film</a>
+    &nbsp;|&nbsp;
+    <a href="/photos/agfa-karat" className="button">1930's Film Camera</a>
     </center></h3>
 }
 
