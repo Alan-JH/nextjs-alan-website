@@ -22,8 +22,10 @@ export default function FirstPost() {
       </p>
       
       <h2>Gear</h2>
+      <p>
       I have quite a collection of equipment (mostly thanks to my grandparents handing down their old stuff) but I haven't had a chance to use most of it, so 
       I'll only include the notable ones here.
+      </p>
       <img
       src = "/photography/bodies.jpg"
       layout='fill'
