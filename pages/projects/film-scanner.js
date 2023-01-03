@@ -163,49 +163,43 @@ export default function FirstPost() {
       <p>
         On Saturday, I found two helpful videos by Alex Burke on <a href="https://www.youtube.com/watch?v=ylIyA6wQGcY" target="_blank">basic color inversion</a>&nbsp;for film scans in Photoshop, and <a href="https://www.youtube.com/watch?v=urw5x03c9gs" target="_blank">more advanced techniques</a>&nbsp;
         when basic color references aren't present. I got a 7 day trial of Adobe Creative Cloud just to try this out, and the results were pretty similar. But I was impressed by how easy Photoshop made the manual process, compared to darktable's relatively clunky UI. I was working to try to match the colors 
-        in the scans I got from the store, but I just couldn't get that "filmy" quality. When I took a step back and looked at my scans on their own though, they were still pretty nice.
+        in the scans I got from the store, but I couldn't quite match the filmy quality, because I didn't realize that the as shot white balance was clipping the blue channel after inversion.
       </p>
       {gallery(photoshop)}
       <p>
         The store scans for reference:
       </p>
       {gallery(storescans)}
-      <h3>The Final Procedure</h3>
-      <li>Set backlight to 5600K and 100% brightness</li>
-      <li>Set camera to base ISO, and aperture F8</li>
-      <li>Insert film into holder, slide into hood. Wear gloves to avoid leaving fingerprints on the film</li>
-      <li>Using a representative frame, set focus (in my case between 0.55m and 0.6m on the lens)</li>
-      <li>Set shutter speed so that you expose to the right to maximize range (histogram should be just to the right of center, but not too far right so as to not clip highlights)</li>
-      <li>Take photos of each frame using the same exposure settings for ease of correction</li>
-
-      <p>
-        From here, there is a choice between darktable and Photoshop. Photoshop is much more manual and deliberate, forcing you to make decisions about individual colors and hues, while darktable allows much faster edits and a much more standardized process through the negadoctor feature.
-      </p>
-      <h4>Using darktable</h4>
-      <li>Load the RAW files into darktable</li>
-      <li>For each RAW file, disable default adjustments like filmic RGB, sharpen, and highlight reconstruction</li>
-      <li>Enable negadoctor, use the eyedropper tool to sample a non exposed part of the negative as the film stock color</li>
-      <li>Decrease the dynamic range of the film until the exposure looks good (for me it's usually between 0.6 and 1.0 depending)</li>
-      <li>Go to white balance, adjust white balance until the colors look right. Generally, blue needs to be increased (to decrease blue after inversion), and red can be decreased by a bit</li>
-      <h4>Using Photoshop</h4>
-      The videos linked above go into quite a bit of detail on the procedure, but here is an abridged version:
-      <li>Load the RAW file into Photoshop</li>
-      <li>Add a curve layer, perform a simple invert by dragging the left up and the right down</li>
-      <li>Sample the color of the non exposed film stock using the eyedropper, create a new filled layer, subtract with less than 80% opacity to maintain shadows (sometimes as low is 50% is needed for poorly exposed shots)</li>
-      <li>Add another curve layer, and in each individual color channel drag to the left until you are just about to clip the highlights</li>
-      <li>Correct colors by creating a point on each spline and dragging up or down. Blue needs to be dragged down the most, then green a little bit, and red can be dragged up a bit if needed. Use known objects as color references</li>
-      <li>Add a hue/saturation layer, and adjust individual color hue/saturation/brightness until colors like the sky are correct. I find that I usually need to adjust blue to be a lighter hue and lower saturation. Don't overdo it, because it will be noticeable past a point</li>
-
-      <p>
-        I'm still working on my Photoshopping skills, but it does seem much more promising than darktable in terms of control.
-      </p>
       <h3>V2 Addendum</h3>
-      I designed a second version with prints that mount to a 300mm length of 2020 extrusion, mostly to keep the whole thing more rigid than plywood. I also designed a better mount
-      that allows the peakdesign plate mount to be adjusted with four M3 screws.
+      <p>
+        I designed a second version with prints that mount to a 300mm length of 2020 extrusion, mostly to keep the whole thing more rigid than plywood. I also designed a better mount
+        that allows the peakdesign plate mount to be adjusted with four M3 screws.
+      </p>
       <center>
         <img src="/images/filmscanner/v2nocam.jpg" loading="lazy"/>
         <img src="/images/filmscanner/v2cam.jpg" loading="lazy"/>
       </center>
+      <p>
+        I also later realized that setting the white balance to auto was necessary, because the blue rgb channel was getting clipped after inversion with "as shot", which was sony's daylight preset for consistency.
+        I got much better scans after this.
+      </p>
+      <h3>The Final Procedure</h3>
+      <li>Set backlight to 5600K and 100% brightness</li>
+      <li>Set camera to base ISO, and aperture F8 or above</li>
+      <li>Insert film into holder, slide into hood. Wear gloves to avoid leaving fingerprints on the film</li>
+      <li>Using a representative frame, set focus (in my case between 0.55m and 0.6m on the lens)</li>
+      <li>Set shutter speed so that you expose to the right to maximize range (histogram should be just to the right of center, but not too far right so as to not clip highlights)</li>
+      <li>Take photos of each frame using the same exposure settings for ease of correction</li>
+      The videos linked above go into quite a bit of detail on editing with Photoshop, but here is an abridged version:
+      <li>Load the RAW file into Photoshop. Make sure to use auto white balance instead of as shot, or set it to a constant lowish temperature with no tint (I use 2850K 0 Tint)</li>
+      <li>Add a curve layer, perform a simple invert by dragging the left up and the right down</li>
+      <li>Sample the color of the non exposed film stock using the eyedropper, create a new filled layer, subtract with less than about 80% opacity to maintain shadows (sometimes as low is 50% is needed for poorly exposed shots)</li>
+      <li>Add another curve layer, and in each individual color channel drag to the left until you are just about to clip the highlights</li>
+      <li>Correct colors by creating a point on each spline and dragging up or down. Blue needs to be dragged down the most, then green a little bit, and red can be dragged up a bit if needed. Use known objects as color references</li>
+      <li>Add a hue/saturation layer, and adjust individual color hue/saturation/brightness until colors like the sky are correct. Don't overdo it, because it will be noticeable past a point</li>
+      <p>
+        I'm still working on my Photoshopping skills, but it gives a lot more control than darktable and has a nicer interface.
+      </p>
       <h3>Shoutout</h3>
       <p>
         Thanks to my boi Aarush Sivanesan for helping debug, giving me tips on lighting, and providing feedback on my scans
@@ -215,7 +209,7 @@ export default function FirstPost() {
       </center>
 
       <p>
-        Last updated 16 Dec 2022
+        Last updated 2 Jan 2023
       </p>
       <h2>You May Also Like</h2>
       <div>

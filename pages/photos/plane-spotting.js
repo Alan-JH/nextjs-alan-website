@@ -16,7 +16,7 @@ export default function FirstPost() {
 
       {gallery(images)}
 
-      Last updated 19 December 2022
+      Last updated 2 January 2023
 
     </Layout>
 
