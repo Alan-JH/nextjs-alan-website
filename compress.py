@@ -1,5 +1,6 @@
 import cv2, os
 import imutils
+import time
 
 dir = input("Enter directory to compress: ")
 
@@ -9,7 +10,11 @@ with open("./public/" + dir + "/list.txt") as f:
     for line in f:
         ls = line.strip().split(", ")
         link, descr = ls[0], ", ".join(ls[1:])
-        img = imutils.url_to_image(link)
+        try:
+            img = imutils.url_to_image(link)
+        except:
+            time.sleep(20)
+            img = imutils.url_to_image(link)
 
         print('Original Dimensions : ',img.shape)
         scale_percent = 25 # percent of original size
@@ -23,6 +28,7 @@ with open("./public/" + dir + "/list.txt") as f:
 
         images.append((dir, link, str(count) + ".jpg", img.shape[1], img.shape[0], descr))
         count += 1
+        #time.sleep(0.2)
 
 f = open("./public/" + dir + "/list.js", "w")
 f.write("import {image} from '../../../components/gallery-elements'\n")
