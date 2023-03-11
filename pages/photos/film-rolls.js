@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout from '../../components/layout'
+import Link from 'next/link'
 import styles from '../../components/layout.module.css'
 import {gallery, galleriesHeader} from '../../components/gallery-elements'
 import {images} from '../../public/photography/filmrolls/list'
@@ -13,17 +14,17 @@ export default function FirstPost() {
       {galleriesHeader()}
 
       Here are most of my film shots, in order. I have shot with Kodak Ektar 100, Kodak Portra 400, and expired Kodak Gold 200 and Fujicolor Xtra 400.
+      These are mostly shots I have taken on my SLRs, but you can also check out my point and shoot shots <Link href="/photos/half-frame"><a>here</a></Link>
+      &nbsp;or <Link href="/photos/toma"><a>here</a></Link>, or my agfa 1930's camera shots <Link href="/photos/agfa-karat"><a>here</a></Link>.
       
       <h3>Notes</h3>
-      <li>Ektar 100 is really nice and contrasty (I am an Ektar simp)</li>
-      <li>Portra 400 likes to be overexposed by one stop on my Pentax ME Super (which already errs on the side of overexposure beacuse of a lightly worn meter)</li>
       <li>Expired film should be overexposed by one or two stops</li>
       <li>At least at the store I get my film scanned at, shadows tend to be a bit green, which can contribute to the film look, or can be edited out</li>
       <li>When adjusting curves for film editing, often shots that are too grainy due to underexposure can benefit from a slight dip in the curve very low in the histogram</li>
 
       {gallery(images)}
 
-      Last updated 31 December 2022
+      Last updated 10 March 2023
 
     </Layout>
 

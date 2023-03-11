@@ -12,12 +12,13 @@ export default function FirstPost() {
       </Head>
       {galleriesHeader()}
 
-      These are 35mm half frame film shots taken on my Olympus Pen EE3. I try to pair similar shots together since they get scanned in as full frame.
+      These are 35mm half frame film shots taken on my Olympus Pen EE3. The Pen is the point and shoot I use the most, and I carry it with me most of the time
+      whenever I have my backpack. I initially tried to pair shots with similar subjects, but I have since given that up.
       Unfortunately on my first roll, the camera store didn't pair the first frame with anything, so I had to scan them in myself to get them paired properly.
 
       {gallery(images)}
 
-      Last updated 17 December 2022
+      Last updated 10 March 2023
 
     </Layout>
 

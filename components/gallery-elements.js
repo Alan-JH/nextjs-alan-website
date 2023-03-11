@@ -17,6 +17,8 @@ export function galleriesHeader(){
     &nbsp;|&nbsp;
     <a href="/photos/half-frame" className="button">Half Frame Film</a>
     &nbsp;|&nbsp;
+    <a href="/photos/toma" className="button">Toma M900 Shots</a>
+    &nbsp;|&nbsp;
     <a href="/photos/agfa-karat" className="button">1930's Film Camera</a>
     </center></h3>
 }
