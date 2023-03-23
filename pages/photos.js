@@ -39,7 +39,7 @@ export default function FirstPost() {
       (with a high eyepoint making it easier to use with glasses on), and a double exposure lever for in camera double exposures. The 80/20 metering system took a while to get used to, as it's less forgiving
       than 60/40, and the camera is quite heavy, at 600g for the body alone. I love the ADR scale, which shows the current lens aperture by optically showing the current marking on the lens through the viewfinder. 
       It's creative engineering on Nikon's part. 
-
+      <br></br>
       I mostly switch between the Nikkor 50mm f1.4 AI-S and the Nikkor AF-D 24-120mm f3.5-5.6, but I sometimes use a 25-50mm f4 AI-S for sharper wide shots and smoother zoom ring than the 24-120.
       The fast fifty handles so so nicely, and the 24-120 provides an extremely convenient range of focal lengths while sacrificng a bit on sharpness.
     
@@ -48,7 +48,7 @@ export default function FirstPost() {
       This was my first film camera, and it's still a lot of fun to use. It costed only $40 with no lens, and I installed an M42 to PK adapter to use vintage M42 lenses.
       It's a pretty good mid-70's/80's manual SLR, with a bright viewfinder, 60/40 metering, shutter auto mode, 1/125 sync speed, bulb mode, and exposure comp (in whole steps).
       I generally use my F3 more because I have proper zoom lenses for it, but the ME Super is still a fun little camera and I'm more willing to take it on risky adventures like biking.
-
+      <br></br>
       I usually switch between an M42 50mm f1.4 Super Takumar 7 element and an M42 135mm f3.5 Super Takumar. I also have a 135mm f2.8 Auto Lentar with Tamron T4 mount to M42, which I bought for a dollar
       and fixed up. The 50 Takumar is a fun lens that gives a golden tint because of its radioactive glass, and I also use it to get more interesting film like photos on my a6000. All the M42 lenses are built
       extremely well.
