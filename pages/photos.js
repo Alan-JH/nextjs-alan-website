@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import styles from '../components/layout.module.css'
 import "react-image-lightbox/style.css";
-import {galleriesHeader} from '../components/gallery-elements'
 
 export default function FirstPost() {
 
@@ -20,7 +19,32 @@ export default function FirstPost() {
         expensive. Film just calls for much more attention to each shot and gives you a much more interesting result than digital, and every step of the process 
         is more deliberate and personal.
       </p>
-      
+
+      <h2>
+        Collections
+      </h2>
+      <h3>by theme</h3>
+      D.C.
+      Neighborhood
+      california '22
+      florida '22
+      rockies '23
+      skiing
+      plane spotting
+      architecture
+      astro
+      macro
+      night
+      vintage
+      <h3>By Camera</h3>
+      sony a6000
+      nikon F3HP
+      pentax me super
+      olympus pen ee3 
+      toma m900 
+      nikon f50d
+      agfa karat
+
       <h2>Gear</h2>
       <img
       src = "/photography/bodies.jpg"

@@ -1,8 +1,17 @@
 import Head from 'next/head'
 import Layout from '../../components/layout'
 import styles from '../../components/layout.module.css'
-import {gallery, galleriesHeader} from '../../components/gallery-elements'
+import {gallery, galleryNoClick} from '../../components/gallery-elements'
 import {images} from '../../public/photography/macro/list'
+
+export function collectionList(title, page){
+  return (
+    <center>
+      <h4><a href={page} className="button">{title}</a></h4>
+      {galleryNoClick(images.splice(0, 4))}
+    </center>
+  );
+}
 
 export default function FirstPost() {
   return (
@@ -10,7 +19,7 @@ export default function FirstPost() {
       <Head>
         <title>Alan's Macro Shots</title>
       </Head>
-      {galleriesHeader()}
+      <br></br>
       
       <p>
         I 3D printed a couple M42 extensions to be able to use my 50mm Super Tak for film scanning, but they also work pretty well for macro.

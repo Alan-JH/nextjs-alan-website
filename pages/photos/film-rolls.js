@@ -2,8 +2,17 @@ import Head from 'next/head'
 import Layout from '../../components/layout'
 import Link from 'next/link'
 import styles from '../../components/layout.module.css'
-import {gallery, galleriesHeader} from '../../components/gallery-elements'
+import {gallery, galleryNoClick} from '../../components/gallery-elements'
 import {images} from '../../public/photography/filmrolls/list'
+
+export function collectionList(title, page){
+  return (
+    <center>
+      <h4><a href={page} className="button">{title}</a></h4>
+      {galleryNoClick(images.splice(0, 4))}
+    </center>
+  );
+}
 
 export default function FirstPost() {
   return (
@@ -11,8 +20,7 @@ export default function FirstPost() {
       <Head>
         <title>Alan's Film Photos</title>
       </Head>
-      {galleriesHeader()}
-
+      <br></br>
       Here are most of my film shots, in order. I have shot with Kodak Ektar 100, Kodak Portra 400, and expired Kodak Gold 200 and Fujicolor Xtra 400.
       These are mostly shots I have taken on my SLRs, but you can also check out my point and shoot shots <Link href="/photos/half-frame"><a>here</a></Link>
       &nbsp;or <Link href="/photos/toma"><a>here</a></Link>, or my agfa 1930's camera shots <Link href="/photos/agfa-karat"><a>here</a></Link>.
