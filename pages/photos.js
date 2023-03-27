@@ -2,6 +2,13 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import styles from '../components/layout.module.css'
 import "react-image-lightbox/style.css";
+import {daytodayList} from "./photos/daytoday"
+import {dcList} from "./photos/dc"
+import {caliList} from "./photos/cali22"
+import {floridaList} from "./photos/florida22"
+import {rockiesList} from "./photos/rockies"
+import {skiingList} from "./photos/skiing"
+import {planesList} from "./photos/planes"
 
 export default function FirstPost() {
 
@@ -11,8 +18,7 @@ export default function FirstPost() {
         <title>Alan's Photography</title>
       </Head>
 
-      <h2><center> Galleries </center></h2>
-      {galleriesHeader()}
+      <br></br>
 
       <p>
         I do both film and digital photography, and they both have their merits, but film is definitely a favorite right now, even though it is ridiculously 
@@ -23,27 +29,17 @@ export default function FirstPost() {
       <h2>
         Collections
       </h2>
-      <h3>by theme</h3>
-      D.C.
-      Neighborhood
-      california '22
-      florida '22
-      rockies '23
-      skiing
-      plane spotting
-      architecture
-      astro
-      macro
-      night
-      vintage
-      <h3>By Camera</h3>
-      sony a6000
-      nikon F3HP
-      pentax me super
-      olympus pen ee3 
-      toma m900 
-      nikon f50d
-      agfa karat
+      {daytodayList()}
+      {dcList()}
+      {caliList()}
+      {floridaList()}
+      {rockiesList()}
+      {skiingList()}
+      {planesList()}
+      Astro
+      Macro
+      Night
+      Vintage
 
       <h2>Gear</h2>
       <img
