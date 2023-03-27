@@ -8,6 +8,7 @@ import { notes_list_element, notes_list_element_full } from '../components/landi
 export function full_post_list(){
   return (
     <div>
+      {notes_list_element_full("Bike Mods", "bike-mods", "projects")}
       {notes_list_element_full("35mm Film Scanner", "film-scanner", "projects")}
       {/*notes_list_element_full("Piridium CubeSat Bus", "piridium", "projects")*/}
       {notes_list_element_full("FOC Motor Controller", "foc-controller", "projects")} 
