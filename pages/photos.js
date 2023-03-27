@@ -9,6 +9,10 @@ import {floridaList} from "./photos/florida22"
 import {rockiesList} from "./photos/rockies"
 import {skiingList} from "./photos/skiing"
 import {planesList} from "./photos/planes"
+import {astroList} from "./photos/astro"
+import {macroList} from "./photos/macro"
+import {nightList} from "./photos/night"
+import {vintageList} from "./photos/vintage"
 
 export default function FirstPost() {
 
@@ -36,10 +40,10 @@ export default function FirstPost() {
       {rockiesList()}
       {skiingList()}
       {planesList()}
-      Astro
-      Macro
-      Night
-      Vintage
+      {astroList()}
+      {macroList()}
+      {nightList()}
+      {vintageList()}
 
       <h2>Gear</h2>
       <img
