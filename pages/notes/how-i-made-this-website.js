@@ -30,7 +30,7 @@ export default function FirstPost() {
       One of the more substantial changes I made was a google photos style gallery for my photography pages, because I wanted a nicer way to show off more of my photos.
       I did this with <a href="https://github.com/frontend-collective/react-image-lightbox" target="_blank" rel="noopener noreferrer">react-image-lightbox</a>, an npm package that provides tools for displaying images.
 
-      <p>You can find the source code for this website on my&nbsp;
+      <p>If you want to laugh at my garbage web dev skills, you can find the source code for this website on my&nbsp;
         <Link href="https://github.com/Alan-JH/nextjs-alan-website">github repo.</Link></p>
 
     </Layout>
