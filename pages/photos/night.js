@@ -7,7 +7,7 @@ import {images} from '../../public/photography/night/list'
 export function nightList(){
   return (
     <center>
-      <h4><a href="./photos/macro" className="button">Night</a></h4>
+      <h4><a href="./photos/night" className="button">Night</a></h4>
       {galleryNoClick(images.splice(0, 4))}
     </center>
   );
