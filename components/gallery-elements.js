@@ -3,26 +3,6 @@ import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import { useState } from "react";
 
-export function galleriesHeader(){
-    return <h3><center>
-    <a href="https://www.instagram.com/alanhsu.photos/" className="button" target="_blank">General (Instagram)</a>
-    &nbsp;|&nbsp;
-    <a href="/photos/plane-spotting" className="button">Plane Spotting!</a>
-    &nbsp;|&nbsp;
-    <a href="/photos/astro" className="button">Astro</a>
-    &nbsp;|&nbsp;
-    <a href="/photos/macro" className="button">Macro</a>
-    &nbsp;|&nbsp;
-    <a href="/photos/film-rolls" className="button">Film Rolls</a>
-    &nbsp;|&nbsp;
-    <a href="/photos/half-frame" className="button">Half Frame Film</a>
-    &nbsp;|&nbsp;
-    <a href="/photos/toma" className="button">Toma M900 Shots</a>
-    &nbsp;|&nbsp;
-    <a href="/photos/agfa-karat" className="button">1930's Film Camera</a>
-    </center></h3>
-}
-
 export function gallery(images){
     const [index, setIndex] = useState(-1);
 
@@ -62,6 +42,17 @@ export function gallery(images){
             onMoveNextRequest={handleMoveNext}
             />
         )}
+        </div>
+    );
+}
+
+export function galleryNoClick(images){
+    return (
+        <div>
+        <Gallery
+            images={images}
+            enableImageSelection={false}
+        />
         </div>
     );
 }

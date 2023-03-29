@@ -2,7 +2,17 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import styles from '../components/layout.module.css'
 import "react-image-lightbox/style.css";
-import {galleriesHeader} from '../components/gallery-elements'
+import {daytodayList} from "./photos/daytoday"
+import {dcList} from "./photos/dc"
+import {caliList} from "./photos/cali22"
+import {floridaList} from "./photos/florida22"
+import {rockiesList} from "./photos/rockies"
+import {skiingList} from "./photos/skiing"
+import {planesList} from "./photos/planes"
+import {astroList} from "./photos/astro"
+import {macroList} from "./photos/macro"
+import {nightList} from "./photos/night"
+import {vintageList} from "./photos/vintage"
 
 export default function FirstPost() {
 
@@ -12,15 +22,29 @@ export default function FirstPost() {
         <title>Alan's Photography</title>
       </Head>
 
-      <h2><center> Galleries </center></h2>
-      {galleriesHeader()}
+      <br></br>
 
       <p>
         I do both film and digital photography, and they both have their merits, but film is definitely a favorite right now, even though it is ridiculously 
         expensive. Film just calls for much more attention to each shot and gives you a much more interesting result than digital, and every step of the process 
         is more deliberate and personal.
       </p>
-      
+
+      <h2>
+        Collections
+      </h2>
+      {daytodayList()}
+      {dcList()}
+      {caliList()}
+      {floridaList()}
+      {rockiesList()}
+      {skiingList()}
+      {planesList()}
+      {astroList()}
+      {macroList()}
+      {nightList()}
+      {vintageList()}
+
       <h2>Gear</h2>
       <img
       src = "/photography/bodies.jpg"
