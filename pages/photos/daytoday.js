@@ -21,6 +21,8 @@ export default function FirstPost() {
       </Head>
       <br></br>
 
+      Generally shots that I take at random times throughout the day or shooting walks, or just shots that don't fall into the other categories that I like.
+
       {gallery(images)}
 
     </Layout>

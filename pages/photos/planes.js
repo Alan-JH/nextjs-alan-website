@@ -21,8 +21,6 @@ export default function FirstPost() {
       </Head>
       <br></br>
 
-      I'm also counting UAV photos as plane spotting
-
       {gallery(images)}
 
     </Layout>

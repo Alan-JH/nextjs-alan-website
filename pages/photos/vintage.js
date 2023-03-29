@@ -21,7 +21,7 @@ export default function FirstPost() {
       </Head>
       <br></br>
 
-      vintage vibes, some with an actual 1930s camera
+      vintage vibes, with an actual 1930s camera
 
       {gallery(images)}
 
