@@ -28,7 +28,7 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
 
 
-        <h3>Currently</h3>
+        <h3>Things I've Done</h3>
         <p>
         <img src="/images/icons/Tjlogo.png"
           width  = {icon_size}
@@ -37,7 +37,7 @@ export default function Home() {
           style={{marginTop: 3}}
           href="https://en.wikipedia.org/wiki/Thomas_Jefferson_High_School_for_Science_and_Technology"
           comment="Image by Wikipedia"
-        />&nbsp;&nbsp;Senior at TJHSST
+        />&nbsp;&nbsp;Survived four years at TJHSST
         <br></br>
         <img src="/images/icons/tjspacelogo.jpg"
           width  = {icon_size}
@@ -45,7 +45,7 @@ export default function Home() {
           align = "left"
           style={{marginTop: 3}}
           href="https://activities.tjhsst.edu/cubesat/"
-        />&nbsp;&nbsp;Mentor for TJ Space Program
+        />&nbsp;&nbsp;Designed a CubeSat bus for <a href="https://activities.tjhsst.edu/cubesat/" target="_blank">TJ Space Program</a>
         <br></br>
         <img src="/images/icons/tjuavlogo.png"
           width  = {icon_size}
@@ -53,14 +53,8 @@ export default function Home() {
           align = "left"
           style={{marginTop: 3}}
           href="https://github.com/tj-uav"
-        />&nbsp;&nbsp;Technical Lead for TJ UAV
+        />&nbsp;&nbsp;Technical Lead for <a href="https://tj-uav.github.io/home" target="_blank">TJ UAV</a>&nbsp; (built an autonomous plane)
         <br></br>
-        🛠️&nbsp;&nbsp;&nbsp;Thinking about project team management
-
-        </p>
-
-        <h3>Previously</h3>
-        <p>
         <img src="/images/icons/tjreverb.jpeg"
           width  = {icon_size}
           height = {icon_size}
@@ -69,28 +63,28 @@ export default function Home() {
           href="https://github.com/TJREVERB"
         />&nbsp;&nbsp;Launched a <a href="https://tjhsst.fcps.edu/features/launch-tjreverb-culmination-seven-year-project-tj-space" target="_blank">2U cubesat</a>
         <br></br>
-        🌕&nbsp;&nbsp;&nbsp;designed electronics for rovers at Starpath Robotics
-        <br></br>
-        ✈️&nbsp;&nbsp;&nbsp;designed and built flight sim peripherals
+        🌕&nbsp;&nbsp;&nbsp;Built moon rovers at Starpath Robotics
         <br></br>
         </p>
         
         <h3>Fun</h3>
 
-        <img src="/images/icons/mesuper.jpg"
+        <img src="/images/icons/f3hp.jpeg"
           width  = {icon_size}
-          height = {icon_size}
+          height = {icon_size-5}
           align = "left"
           style={{marginTop: 3}}
         />&nbsp;&nbsp;Check out my <Link href="/photos" >
         <a>photos</a>
         </Link>
         <br></br>
-        🎵&nbsp;&nbsp;&nbsp;Probably listening to flipturn, RMCM, or IDKHOW
+        🎵&nbsp;&nbsp;&nbsp;Probably listening to flipturn, RMCM, or Friday Pilots Club
         <br></br>
-        🎹&nbsp;&nbsp;&nbsp;Play the piano
+        🎹&nbsp;&nbsp;&nbsp;Play the piano, learning guitar
         <br></br>
-        ⛷&nbsp;&nbsp;&nbsp;&nbsp;Seeking out moguls
+        ⛷&nbsp;&nbsp;&nbsp;&nbsp;Seeking out the moguls
+        <br></br>
+        🛠️&nbsp;&nbsp;&nbsp;Always looking for projects to build
       </section>
 
     </Layout>
