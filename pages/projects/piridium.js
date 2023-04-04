@@ -20,7 +20,7 @@ export default function FirstPost() {
       </Link>
       <br></br>
       <p>
-        Piridium is a (currently WIP) CubeSat bus design employing a similar design philosophy to Pycubed, but using an Iridium 9602N Modem and Raspberry Pi Zero flight compuoter
+        Piridium is a CubeSat bus design employing a similar design philosophy to Pycubed, but using an Iridium 9602N Modem and Raspberry Pi Zero flight computer
         incorporating the lessons from TJREVERB, the 2U CubeSat that I worked on. It is designed to be a low cost and easy to use CubeSat bus with basic payload interfacing. 
         The design is divided into an avionics board and a battery board, with the battery board housing six 18650 cells, and balancing and protection circuitry, and the avionics 
         board housing the inhibits, RBF circuitry, 5V rail regulators for Iridium and RPi, payload power control circuitry, solar input regulators, telemetry readouts, an RTC and IMU, 
@@ -28,9 +28,18 @@ export default function FirstPost() {
         on radiation testing for tolerance for TID and SEE. 
       </p>
 
-      {triple_centered_img_block()}
+      <center>
+        <img src="/images/piridium/stack.jpg" loading="lazy"/>
+      </center>
 
       <h2>History</h2>
+      <p>
+        I started this project in October '22, but its roots go back to a year before. While I was working on TJREVERB, we ran into an issue that led us to believe the EPS 
+        may have been broken, so I started a stopgap eps design to continue testing the flatsat with. Since the EPS didn't end up being broken, I stopped working on the stopgap eps 
+        shortly after. I restarted the project over winter break, mostly out of boredom, this time going for a full EPS design. I had finished it by April-May with the help of 
+        Kiran Donelly, a sophomore trying to learn PCB routing, and I ordered most of the parts for it with leftover TJREVERB money.
+      </p>
+
       <p>
         The first form of what would become this project started in October 2021, while I was working on TJREVERB. We had just flashed a new operating system on the Raspberry Pi,
         but we didn't realize that there had been a script in the old operating system that reset the EPS watchdog timer every 30 seconds, so the new operating system started rebooting
@@ -50,7 +59,6 @@ export default function FirstPost() {
         placing the telemetry and telecommand microcontroller power before the latching current limiters for the 3.3V rail, so that I could rely on the microcontroller to reset these current limiters rather
         than using analog timer chips. Overall, the objective was to design an EPS similar to the Clydespace or GOMSpace equivalents, but much lower cost.
       </p>
-      {triple_centered_img_block()}
       <p>
         This time around, I also designed a battery board, which included four 18650 cells and protection and telemetry circuitry, again similar to the Clydespace design. I started routing everything around
         March of 2022, and delegated the routing of the EPS board to some poor sophomore who wanted to learn how to route PCBs (shoutout Kiran Donelly '24). We went through many cycles of him sending me a design
