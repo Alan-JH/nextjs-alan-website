@@ -62,7 +62,16 @@ export default function FirstPost() {
       </p>
 
       <p>
-        Last updated 24 Mar 2023
+        Eventually, I decided to spray paint the frame, using Spray.Bike paints, which involved taking the whole bike apart, spraying a couple coats and a gloss top coat,
+        and waiting a week for it to cure. The end result was well worth it, though.
+      </p>
+
+      <center>
+        <img src="/images/bike/final.jpg" loading="lazy"/>
+      </center>
+
+      <p>
+        Last updated 17 Apr 2023
       </p>
     </Layout>
 
