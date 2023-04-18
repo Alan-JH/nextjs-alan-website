@@ -19,7 +19,7 @@ export default function FirstPost() {
       <br></br>
 
       <p>
-        For some reason I never thought to start biking to go places until 2023. I did own a bicycle, a cheap but pretty decent Infinity Boss Three (Costco's hybrid bike),
+        For some reason I never thought to start biking to go places until 2023. I did own a bicycle, a cheap but kinda decent Infinity Boss Three (Costco's hybrid bike),
         but it had been sitting out on the porch unused for over three years, and whenever I had used it it was only to go around the two streets that make up my neighborhood. 
         The tires had dry rotted, it was covered in dust and pollen, and some rust had collected. I got the tires replaced at a store, and decided to do the rest of the repairs 
         that I might need myself.
@@ -63,7 +63,8 @@ export default function FirstPost() {
 
       <p>
         Eventually, I decided to spray paint the frame, using Spray.Bike paints, which involved taking the whole bike apart, spraying a couple coats and a gloss top coat,
-        and waiting a week for it to cure. The end result was well worth it, though.
+        and waiting a week for it to cure. I did a Fluro Light Blue gradient on Whitechapel, and the end result was well worth it. I think it's safe to say I now have the coolest looking 
+        Infinity Boss Three out there.
       </p>
 
       <center>
