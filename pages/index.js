@@ -53,7 +53,7 @@ export default function Home() {
           align = "left"
           style={{marginTop: 3}}
           href="https://github.com/tj-uav"
-        />&nbsp;&nbsp;Technical Lead for <a href="https://tj-uav.github.io/home" target="_blank">TJ UAV</a>&nbsp; (built an autonomous plane)
+        />&nbsp;&nbsp;Team Captain for <a href="https://tj-uav.github.io/home" target="_blank">TJ UAV</a>&nbsp; at SUAS 2023 (built an autonomous plane)
         <br></br>
         <img src="/images/icons/tjreverb.jpeg"
           width  = {icon_size}
@@ -78,7 +78,7 @@ export default function Home() {
         <a>photos</a>
         </Link>
         <br></br>
-        🎵&nbsp;&nbsp;&nbsp;Probably listening to flipturn, RMCM, or Friday Pilots Club
+        🎵&nbsp;&nbsp;&nbsp;Probably listening to flipturn, RMCM, or Mt. Joy
         <br></br>
         🎹&nbsp;&nbsp;&nbsp;Play the piano, learning guitar
         <br></br>

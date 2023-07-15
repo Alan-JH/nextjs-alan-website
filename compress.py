@@ -16,7 +16,7 @@ with open("./public/" + dir + "/list.txt") as f:
             time.sleep(20)
             img = imutils.url_to_image(link)
 
-        print('Original Dimensions : ',img.shape)
+        print('Original Dimensions : ',img.shape, " Index : ", count)
         scale_percent = 25 # percent of original size
         width = int(img.shape[1] * scale_percent / 100)
         height = int(img.shape[0] * scale_percent / 100)

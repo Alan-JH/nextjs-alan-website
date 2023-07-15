@@ -13,6 +13,8 @@ import {astroList} from "./photos/astro"
 import {macroList} from "./photos/macro"
 import {nightList} from "./photos/night"
 import {vintageList} from "./photos/vintage"
+import {ocList} from "./photos/oceancity"
+import {sfList} from "./photos/sf23"
 
 export default function FirstPost() {
 
@@ -34,7 +36,9 @@ export default function FirstPost() {
         Collections
       </h2>
       {daytodayList()}
+      {sfList()}
       {dcList()}
+      {ocList()}
       {caliList()}
       {floridaList()}
       {rockiesList()}
