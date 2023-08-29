@@ -55,6 +55,13 @@ export default function FirstPost() {
       to music more and expand my taste to include more instrumental music, I do want to try to become familiar with piano, but it is almost like starting to 
       learn all over again, just with some good technique skills.
 
+      <h2>Photography</h2>
+      
+      <h4>Photography is an expression of what the photographer finds aesthetic or important</h4>
+
+      Not really a jarring revelation, but it is important to keep in mind. Photography transcends the camera or methods used. Photographers see shots that they are specifically
+      attracted to.
+
     </Layout>
 
   )
