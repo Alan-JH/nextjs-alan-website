@@ -20,7 +20,7 @@ export default function FirstPost() {
       </Link>
       <br></br>
       <p>
-        <a href="https://github.com/Alan-JH/LabPSU" target="_blank">Github Repo</a>
+        <a href="https://github.com/Alan-JH/piridium-bus" target="_blank">Github Repo</a>
       </p>
       <p>
         Piridium is a CubeSat bus design employing a similar design philosophy to Pycubed, but using an Iridium 9602N Modem and Raspberry Pi Zero flight computer
