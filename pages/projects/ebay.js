@@ -59,7 +59,7 @@ export default function FirstPost() {
 
       <p>
         The final result is a lighter, more compact ebay that gives the plane significantly more ground clearance (with the help of taller landing gear as well)
-        and much easier setup and teardown procedures, that also much sleeker.
+        and much easier setup and teardown procedures, that also looks much sleeker.
       </p>
       <center>
         <img src="/images/ebay/newclearance.jpg" loading="lazy"/>
