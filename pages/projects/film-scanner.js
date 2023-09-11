@@ -211,10 +211,6 @@ export default function FirstPost() {
       <p>
         Last updated 2 Jan 2023
       </p>
-      <h2>You May Also Like</h2>
-      <div>
-        {notes_list_element_full("My Film Photos", "film-rolls", "photos")}
-      </div>
     </Layout>
 
   )
