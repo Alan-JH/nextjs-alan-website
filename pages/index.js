@@ -27,6 +27,26 @@ export default function Home() {
 
       <section className={utilStyles.headingMd}>
 
+        <h3>Currently</h3>
+        <p>
+        <img src="/images/icons/purduep.png"
+          width  = {icon_size}
+          height = {icon_size-12}
+          align = "left"
+          style={{marginTop: 8}}
+          href="https://en.wikipedia.org/wiki/Purdue_Boilermakers"
+          comment="Image by Wikipedia"
+        />&nbsp;&nbsp;Freshman at Purdue University
+        <br></br>
+        <img src="/images/icons/psr.jpeg"
+          width  = {icon_size}
+          height = {icon_size}
+          align = "left"
+          style={{marginTop: 3}}
+          href="https://www.linkedin.com/company/purduesolar"
+        />&nbsp;&nbsp;Working on MPPT @ Purdue Solar Racing
+        <br></br>
+        </p>
 
         <h3>Things I've Done</h3>
         <p>
