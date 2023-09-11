@@ -4,7 +4,7 @@ import Layout from '../../components/layout'
 import styles from '../../components/layout.module.css'
 import { notes_list_element_full } from '../../components/landing-elements'
 
-const title = "Title"
+const title = "Avalon Mk X Electronics"
 
 export default function FirstPost() {
   return (
@@ -59,12 +59,14 @@ export default function FirstPost() {
 
       <p>
         The final result is a lighter, more compact ebay that gives the plane significantly more ground clearance (with the help of taller landing gear as well)
-        and much easier setup and teardown procedures, that also looks seriously sexy.
+        and much easier setup and teardown procedures, that also much sleeker.
       </p>
       <center>
         <img src="/images/ebay/newclearance.jpg" loading="lazy"/>
       </center>
-
+      <p>
+        Last updated 11 Sept 2023
+      </p>
 
       <h2>You May Also Like</h2>
       <div>

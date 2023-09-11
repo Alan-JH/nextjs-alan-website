@@ -74,7 +74,7 @@ export default function FirstPost() {
         <img src="/images/reflow/final.jpg" loading="lazy"/>
       </center>
       <p>
-        Last updated 3 December 2022
+        Last updated 3 Dec 2022
       </p>
       <h2>You May Also Like</h2>
       <div>

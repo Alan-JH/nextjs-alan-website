@@ -109,8 +109,14 @@ export default function FirstPost() {
       </p>
 
       <p>
-        Last updated 11 September 2023
+        Last updated 11 Sept 2023
       </p>
+
+      <h2>You May Also Like</h2>
+      <div>
+        {notes_list_element_full("TJREVERB Iridium Communications Protocol", "iridium-encoding", "projects")}
+        {notes_list_element_full("TJREVERB Interface Board", "reverb-interface", "projects")}
+      </div>
 
     </Layout>
 

@@ -57,7 +57,7 @@ export default function FirstPost() {
         Jubilation
       </center>
       <p>
-        Last updated 5 December 2022
+        Last updated 5 Dec 2022
       </p>
       <h2>You May Also Like</h2>
       <div>
