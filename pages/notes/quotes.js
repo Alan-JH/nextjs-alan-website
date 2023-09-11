@@ -57,10 +57,11 @@ export default function FirstPost() {
 
       <h2>Photography</h2>
       
-      <h4>Photography is an expression of what the photographer finds aesthetic or important</h4>
+      <h4>That's why film shooters make better pictures: we only take the good ones!</h4>
 
-      Not really a jarring revelation, but it is important to keep in mind. Photography transcends the camera or methods used. Photographers see shots that they are specifically
-      attracted to.
+      Something from a Ken Rockwell post that summarizes why I love film. Each shot costs $1-3 (depending on the format), so you consciously think much more about 
+      each shot than you would with digital. I have spent up to 20-30 minutes setting up just one shot on film, when I have never done such a thing for digital (save
+      for very long exposures). I just prefer putting more thought into my photos than taking thousands and picking the best ones.
 
     </Layout>
 
