@@ -90,7 +90,7 @@ export default function FirstPost() {
 
       <center>
         <img src="/images/reverb/spaceforce.jpg" loading="lazy"/>
-        Me explaining the interface board and flatsat setup to Space Force Gen. Raymond and Col. Hague
+        Me explaining the interface board and flatsat setup to Space Force Gen. Raymond and Col. Hague, when they visited the school in December
       </center>
       
       <p>
