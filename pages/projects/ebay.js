@@ -47,7 +47,7 @@ export default function FirstPost() {
       <p>
         The initial idea with the new Ebay was to remove the tail cone entirely, saving weight, and cutting down on unused space by making the rear bulkhead a half height 
         bulkhead and making the foam paneling angle upwards into it. Another main motivation was to solidify mounting of the electronics. I moved from individual servo 
-        extensions to bundling all the connections to the wing, tail, and nose in three sleeved cables with molex 8 pin connectors on the ends, which cut down on our setup time
+        extensions to bundling all the connections to the wing, tail, and nose in three sleeved cables with Molex 8 pin connectors on the ends, which cut down on our setup time
         by making the wiring process as easy as plugging in one connector instead of five or six servo extensions. 
       </p>
       <p>

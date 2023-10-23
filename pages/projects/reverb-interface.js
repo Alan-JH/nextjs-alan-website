@@ -101,7 +101,7 @@ export default function FirstPost() {
       </p>
       <p>
         I also had to permanently solder wires to the USB switch, which was a DPDT switch that switched the USB data lines from the Pi between the debug USB port on the top of the satellite
-        and the USB to UART converter for the APRS radio. The 4 pin molex connector couldn't plug in properly, and we weren't going to use the debug USB port anyways.
+        and the USB to UART converter for the APRS radio. The 4 pin Molex connector couldn't plug in properly, and we weren't going to use the debug USB port anyways.
       </p>
 
       <center>
