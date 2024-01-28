@@ -30,8 +30,8 @@ export default function FirstPost() {
         50 Samples
       </h2>
       {gallery(images)}
-
-      
+      <br></br>
+      Check out what <a href="notes/camera-wishlist" target="_blank">cameras </a> are on my mind!
 
     </Layout>
 
