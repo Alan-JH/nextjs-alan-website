@@ -28,7 +28,7 @@ with open("./public/" + dir + "/list.txt") as f:
 
         images.append((dir, link, str(count) + ".jpg", img.shape[1], img.shape[0], descr))
         count += 1
-        #time.sleep(0.2)
+        time.sleep(0.2)
 
 f = open("./public/" + dir + "/list.js", "w")
 f.write("import {image} from '../../../components/gallery-elements'\n")
