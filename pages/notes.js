@@ -11,6 +11,7 @@ export function full_post_list(){
       {notes_list_element_full("Nostalgic Part Numbers", "part-numbers", "notes")}
       {notes_list_element_full("Lens Comparison", "lens-comparison", "notes")}
       {notes_list_element_full("Quotes", "quotes", "notes")}
+      {notes_list_element_full("Camera Wishlist", "camera-wishlist", "notes")}
     </div>
   }
   
